@@ -1,0 +1,51 @@
+{
+  "name": "HeadsetControl",
+  "version": "4.2.0-synthetic",
+  "api_version": "1.6",
+  "hidapi_version": "0.15.0",
+  "device_count": 1,
+  "devices": [
+    {
+      "status": "success",
+      "device": "SteelSeries Arctis Nova Pro Omni",
+      "vendor": "SteelSeries",
+      "product": "Arctis Nova Pro Omni",
+      "id_vendor": "0x1038",
+      "id_product": "0x2300",
+      "capabilities": [
+        "CAP_SIDETONE",
+        "CAP_BATTERY_STATUS",
+        "CAP_NOISE_CANCELLING",
+        "CAP_EQUALIZER_PRESET",
+        "CAP_PARAMETRIC_EQUALIZER",
+        "CAP_HOLOGRAPHIC_WIDENING"
+      ],
+      "capabilities_str": [
+        "sidetone",
+        "battery",
+        "noise cancelling",
+        "equalizer preset",
+        "parametric equalizer",
+        "holographic widening"
+      ],
+      "battery": {
+        "status": "BATTERY_SUPERCHARGED",
+        "level": 87
+      },
+      "equalizer_presets_count": 3,
+      "equalizer_presets": {
+        "zeta": [1.0, 2.0],
+        "alpha": [0.0, 0.0],
+        "mu": [-1.5, 3.0]
+      },
+      "parametric_equalizer": {
+        "bands": 10,
+        "gain": { "step": 0.1, "min": -12.0, "max": 12.0, "base": 0.0 },
+        "q_factor": { "min": 0.2, "max": 10.0 },
+        "frequency": { "min": 20, "max": 20000 },
+        "filter_types": ["peaking", "lowshelf", "highshelf", "brand-new-filter"]
+      },
+      "future_field": { "anything": [1, 2, 3] }
+    }
+  ]
+}

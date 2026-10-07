@@ -1,0 +1,10 @@
+{
+  "name": "HeadsetControl",
+  "version": "4.1.0-13-g25dadae",
+  "api_version": "1.5",
+  "hidapi_version": "0.15.0",
+  "device_count": 0,
+  "devices": [
+
+  ]
+}

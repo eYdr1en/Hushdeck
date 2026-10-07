@@ -1,0 +1,17 @@
+# Swift / Xcode
+.build/
+.swiftpm/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# App bundle output
+app/dist/
+dist/
+
+# Python
+.venv/
+__pycache__/
+
+# macOS
+.DS_Store

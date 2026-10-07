@@ -1,0 +1,4208 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@ (like SteelSeries GG)" : {
+      "comment" : "Low battery threshold that matches GG's own rule",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ (wie SteelSeries GG)"
+          }
+        }
+      }
+    },
+    "%@ copy" : {
+      "comment" : "Name of a duplicated profile",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Kopie"
+          }
+        }
+      }
+    },
+    "%@ decibels" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Dezibel"
+          }
+        }
+      }
+    },
+    "%@ is at %@. Charge it soon." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ ist bei %2$@. Bitte bald aufladen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ is at %2$@. Charge it soon."
+          }
+        }
+      }
+    },
+    "%@ is connected through HeadsetControl. Its controls are in the menu bar." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ist über HeadsetControl verbunden. Die Steuerung dafür ist in der Menüleiste."
+          }
+        }
+      }
+    },
+    "%@ is fully charged." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ist vollständig geladen."
+          }
+        }
+      }
+    },
+    "%@ kHz" : {
+      "comment" : "Frequency in kilohertz",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ kHz"
+          }
+        }
+      }
+    },
+    "%@ to %@ dB" : {
+      "comment" : "Equalizer range, e.g. -12 to +12 dB",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ bis %2$@ dB"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ to %2$@ dB"
+          }
+        }
+      }
+    },
+    "%@ · Charged" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ · Geladen"
+          }
+        }
+      }
+    },
+    "%@ · Charging" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ · Wird geladen"
+          }
+        }
+      }
+    },
+    "%@, charging" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, wird geladen"
+          }
+        }
+      }
+    },
+    "%@. Turn the chat mix dial on the headset to change it." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@. Zum Ändern das ChatMix-Rad am Headset drehen."
+          }
+        }
+      }
+    },
+    "%@: %@." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@: %2$@."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@: %2$@."
+          }
+        }
+      }
+    },
+    "%lld Hz" : {
+      "comment" : "Frequency in hertz",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Hz"
+          }
+        }
+      }
+    },
+    "%lld min" : {
+      "comment" : "Auto-off delay in minutes",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Min."
+          }
+        }
+      }
+    },
+    "%lld settings · %@" : {
+      "comment" : "Profile summary: count and modification date",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld Einstellungen · %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld settings · %2$@"
+          }
+        }
+      }
+    },
+    "2.4 GHz equalizer" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2,4-GHz-Equalizer"
+          }
+        }
+      }
+    },
+    "2.4 GHz link" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2,4-GHz-Verbindung"
+          }
+        }
+      }
+    },
+    "2.4 GHz wireless equalizer" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2,4-GHz-Funk-Equalizer"
+          }
+        }
+      }
+    },
+    "A profile stores every setting from the Audio, Microphone and Headset & Hub tabs, plus the three equalizers. Applying one sends the settings and saves them to the GameHub, the way SteelSeries GG deploys a configuration. Equalizers are sent only while EQ writes are on." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein Profil speichert alle Einstellungen der Bereiche Audio, Mikrofon und Headset & Hub sowie die drei Equalizer. Beim Anwenden werden die Einstellungen gesendet und auf dem GameHub gespeichert, so wie SteelSeries GG eine Konfiguration überträgt. Equalizer werden nur gesendet, solange EQ-Schreibzugriffe aktiv sind."
+          }
+        }
+      }
+    },
+    "About" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Über"
+          }
+        }
+      }
+    },
+    "About %@ left" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch etwa %@"
+          }
+        }
+      }
+    },
+    "About Hushdeck" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Über Hushdeck"
+          }
+        }
+      }
+    },
+    "Acknowledgements" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Danksagungen"
+          }
+        }
+      }
+    },
+    "Active" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktiv"
+          }
+        }
+      }
+    },
+    "Active noise cancellation and transparency" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktive Geräuschunterdrückung und Transparenzmodus"
+          }
+        }
+      }
+    },
+    "Alert at" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warnen bei"
+          }
+        }
+      }
+    },
+    "Allow equalizer uploads to the Omni GameHub" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Equalizer-Uploads auf den Omni GameHub erlauben"
+          }
+        }
+      }
+    },
+    "Also reported by this headset: %@. Hushdeck doesn’t have controls for these yet." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieses Headset meldet außerdem: %@. Dafür hat Hushdeck noch keine Steuerelemente."
+          }
+        }
+      }
+    },
+    "Amazon edition" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Amazon-Edition"
+          }
+        }
+      }
+    },
+    "Applied “%@”" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@“ angewendet"
+          }
+        }
+      }
+    },
+    "Applied “%@”. Its equalizers were skipped because EQ writes are off." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@“ angewendet. Die Equalizer wurden übersprungen, weil EQ-Schreibzugriffe aus sind."
+          }
+        }
+      }
+    },
+    "Apply" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anwenden"
+          }
+        }
+      }
+    },
+    "Audio" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio"
+          }
+        }
+      }
+    },
+    "Audio source" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audioquelle"
+          }
+        }
+      }
+    },
+    "Automatic" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatisch"
+          }
+        }
+      }
+    },
+    "Aux" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aux"
+          }
+        }
+      }
+    },
+    "Back" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zurück"
+          }
+        }
+      }
+    },
+    "Backend" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Backend"
+          }
+        }
+      }
+    },
+    "Balanced" : {
+      "comment" : "Chat mix dial is centred",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausgeglichen"
+          }
+        }
+      }
+    },
+    "Band" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Band"
+          }
+        }
+      }
+    },
+    "Band %lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Band %lld"
+          }
+        }
+      }
+    },
+    "Band %lld  %@ dB" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Band %1$lld  %2$@ dB"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Band %1$lld  %2$@ dB"
+          }
+        }
+      }
+    },
+    "Basic battery" : {
+      "comment" : "Test profile: level without time estimates",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einfacher Akkustatus"
+          }
+        }
+      }
+    },
+    "Bass Boost" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bass Boost"
+          }
+        }
+      }
+    },
+    "Battery" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akku"
+          }
+        }
+      }
+    },
+    "Black" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schwarz"
+          }
+        }
+      }
+    },
+    "Bluetooth" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth"
+          }
+        }
+      }
+    },
+    "Bluetooth at power on" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth beim Einschalten"
+          }
+        }
+      }
+    },
+    "Bluetooth call volume" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth-Anruflautstärke"
+          }
+        }
+      }
+    },
+    "Bluetooth calls" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth-Anrufe"
+          }
+        }
+      }
+    },
+    "Bluetooth equalizer" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth-Equalizer"
+          }
+        }
+      }
+    },
+    "Brightness" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helligkeit"
+          }
+        }
+      }
+    },
+    "Brightness of the red light on the boom while muted." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helligkeit des roten Lichts am Mikrofonarm bei Stummschaltung."
+          }
+        }
+      }
+    },
+    "Broadcast High Pitch" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Broadcast High Pitch"
+          }
+        }
+      }
+    },
+    "Broadcast Low Pitch" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Broadcast Low Pitch"
+          }
+        }
+      }
+    },
+    "Bundled with Hushdeck" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In Hushdeck enthalten"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unterdrücken"
+          }
+        }
+      }
+    },
+    "Charged" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geladen"
+          }
+        }
+      }
+    },
+    "Charging" : {
+      "comment" : "Test profile: charging at 50 percent",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wird geladen"
+          }
+        }
+      }
+    },
+    "Charging state" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ladezustand"
+          }
+        }
+      }
+    },
+    "Charging, full in %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wird geladen, voll in %@"
+          }
+        }
+      }
+    },
+    "Chat mix" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ChatMix"
+          }
+        }
+      }
+    },
+    "Chat mix follows the dial on the hub. On a Mac it is a readout only: SteelSeries Sonar, which mixes game and chat in software, isn’t available for macOS." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ChatMix folgt dem Drehregler am Hub. Auf dem Mac ist es nur eine Anzeige: SteelSeries Sonar, das Spiel und Chat per Software mischt, gibt es nicht für macOS."
+          }
+        }
+      }
+    },
+    "Check Again" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erneut prüfen"
+          }
+        }
+      }
+    },
+    "Check Now" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jetzt prüfen"
+          }
+        }
+      }
+    },
+    "Check headset every" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Headset prüfen alle"
+          }
+        }
+      }
+    },
+    "Choose the headsetcontrol executable" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "headsetcontrol-Programm auswählen"
+          }
+        }
+      }
+    },
+    "Choose…" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auswählen …"
+          }
+        }
+      }
+    },
+    "Clarity High Pitch" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clarity High Pitch"
+          }
+        }
+      }
+    },
+    "Clarity Low Pitch" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clarity Low Pitch"
+          }
+        }
+      }
+    },
+    "Colour" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farbe"
+          }
+        }
+      }
+    },
+    "Confirmed on real hardware." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auf echter Hardware bestätigt."
+          }
+        }
+      }
+    },
+    "Confirmed on the hub: new bands are stored in its Custom slot, and factory presets keep their built-in curves. Turn this off to keep equalizer edits in Hushdeck only." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Am Hub bestätigt: Neue Bänder werden im Custom-Speicherplatz abgelegt, Werks-Presets behalten ihre eingebauten Kurven. Schalte dies aus, damit Equalizer-Änderungen nur in Hushdeck bleiben."
+          }
+        }
+      }
+    },
+    "Connect the base station or USB receiver. Hushdeck checks again every %@." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schließe die Basisstation oder den USB-Empfänger an. Hushdeck sucht alle %@ erneut."
+          }
+        }
+      }
+    },
+    "Connected" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbunden"
+          }
+        }
+      }
+    },
+    "Connecting…" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbinde …"
+          }
+        }
+      }
+    },
+    "Connection" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbindung"
+          }
+        }
+      }
+    },
+    "Controls marked “Unverified” follow SteelSeries GG’s device data but haven’t been tried on a real Omni yet. Hover a marker for details." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit „Ungeprüft“ markierte Einstellungen folgen den Gerätedaten von SteelSeries GG, wurden aber noch nicht an einem echten Omni ausprobiert. Für Details den Mauszeiger über eine Markierung bewegen."
+          }
+        }
+      }
+    },
+    "Copied" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiert"
+          }
+        }
+      }
+    },
+    "Copy command" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Befehl kopieren"
+          }
+        }
+      }
+    },
+    "Couldn’t change Open at Login: %@ Move Hushdeck to Applications and try again." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„Beim Anmelden öffnen“ konnte nicht geändert werden: %@ Bewege Hushdeck in den Ordner „Programme“ und versuche es erneut."
+          }
+        }
+      }
+    },
+    "Couldn’t export the profile: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profil konnte nicht exportiert werden: %@"
+          }
+        }
+      }
+    },
+    "Couldn’t import that profile: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profil konnte nicht importiert werden: %@"
+          }
+        }
+      }
+    },
+    "Couldn’t read the headset" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Headset konnte nicht gelesen werden"
+          }
+        }
+      }
+    },
+    "Couldn’t read this section from the GameHub" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser Bereich konnte nicht vom GameHub gelesen werden"
+          }
+        }
+      }
+    },
+    "Couldn’t start HeadsetControl: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HeadsetControl konnte nicht gestartet werden: %@"
+          }
+        }
+      }
+    },
+    "Custom" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eigene"
+          }
+        }
+      }
+    },
+    "Custom path" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eigener Pfad"
+          }
+        }
+      }
+    },
+    "DSP" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DSP"
+          }
+        }
+      }
+    },
+    "Deep Voice" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deep Voice"
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Löschen"
+          }
+        }
+      }
+    },
+    "Delete Saved Preset" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gespeicherte Voreinstellung löschen"
+          }
+        }
+      }
+    },
+    "Desk" : {
+      "comment" : "Sample profile name in snapshots",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schreibtisch"
+          }
+        }
+      }
+    },
+    "Detailed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausführlich"
+          }
+        }
+      }
+    },
+    "Developer" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entwickler"
+          }
+        }
+      }
+    },
+    "Developer Settings" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entwicklereinstellungen"
+          }
+        }
+      }
+    },
+    "Development build" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entwicklerversion"
+          }
+        }
+      }
+    },
+    "Device" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gerät"
+          }
+        }
+      }
+    },
+    "Dim" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abdunkeln"
+          }
+        }
+      }
+    },
+    "Dismiss" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schließen"
+          }
+        }
+      }
+    },
+    "Do nothing" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nichts tun"
+          }
+        }
+      }
+    },
+    "Drag a band to change its gain and frequency. Double-click a band to reset it." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein Band ziehen, um Verstärkung und Frequenz zu ändern. Doppelklick setzt ein Band zurück."
+          }
+        }
+      }
+    },
+    "Drag to adjust, double-click to reset" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zum Anpassen ziehen, zum Zurücksetzen doppelklicken"
+          }
+        }
+      }
+    },
+    "Drain 10 %" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10 % entladen"
+          }
+        }
+      }
+    },
+    "Duplicate" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duplizieren"
+          }
+        }
+      }
+    },
+    "During Bluetooth calls" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bei Bluetooth-Anrufen"
+          }
+        }
+      }
+    },
+    "EQ %@" : {
+      "comment" : "Profile summary: 2.4 GHz EQ preset name",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EQ %@"
+          }
+        }
+      }
+    },
+    "EQ preset" : {
+      "comment" : "OLED home screen shows the EQ preset name",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EQ-Voreinstellung"
+          }
+        }
+      }
+    },
+    "EQ writes are turned off. Turn them on in Settings → Developer to send this to the hub." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EQ-Schreibzugriffe sind aus. Schalte sie unter Einstellungen → Entwickler ein, um das an den Hub zu senden."
+          }
+        }
+      }
+    },
+    "Equalizer" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Equalizer"
+          }
+        }
+      }
+    },
+    "Equalizer preset" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Equalizer-Voreinstellung"
+          }
+        }
+      }
+    },
+    "Equalizer uploads are switched off, so edits stay in Hushdeck. Turn them on in Settings → Developer." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Equalizer-Uploads sind ausgeschaltet, Änderungen bleiben also in Hushdeck. Schalte sie unter Einstellungen → Entwickler ein."
+          }
+        }
+      }
+    },
+    "Error" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fehler"
+          }
+        }
+      }
+    },
+    "Errors" : {
+      "comment" : "Test profile: every read fails",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fehler"
+          }
+        }
+      }
+    },
+    "Export Profile" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profil exportieren"
+          }
+        }
+      }
+    },
+    "Exported “%@”" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@“ exportiert"
+          }
+        }
+      }
+    },
+    "Export…" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportieren …"
+          }
+        }
+      }
+    },
+    "Factory reset" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auf Werkseinstellungen zurücksetzen"
+          }
+        }
+      }
+    },
+    "Firmware" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Firmware"
+          }
+        }
+      }
+    },
+    "Firmware updates need SteelSeries GG. Hushdeck never sends update or bootloader commands." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Firmware-Updates brauchen SteelSeries GG. Hushdeck sendet nie Update- oder Bootloader-Befehle."
+          }
+        }
+      }
+    },
+    "Flat" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neutral"
+          }
+        }
+      }
+    },
+    "Focus" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Focus"
+          }
+        }
+      }
+    },
+    "Forget Saved Omni Settings" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gespeicherte Omni-Einstellungen vergessen"
+          }
+        }
+      }
+    },
+    "Forget Saved Settings" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gespeicherte Einstellungen vergessen"
+          }
+        }
+      }
+    },
+    "Forget the settings Hushdeck would restore on the Arctis Nova Pro Omni" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Einstellungen vergessen, die Hushdeck auf dem Arctis Nova Pro Omni wiederherstellen würde"
+          }
+        }
+      }
+    },
+    "Forget what Hushdeck remembers for %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vergessen, was Hushdeck für %@ gespeichert hat"
+          }
+        }
+      }
+    },
+    "Forgot saved settings for %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gespeicherte Einstellungen für %@ vergessen"
+          }
+        }
+      }
+    },
+    "Frequency" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frequenz"
+          }
+        }
+      }
+    },
+    "Frequency response" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frequenzgang"
+          }
+        }
+      }
+    },
+    "Full battery" : {
+      "comment" : "Test profile: 100 percent",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akku voll"
+          }
+        }
+      }
+    },
+    "Fully charged" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vollständig geladen"
+          }
+        }
+      }
+    },
+    "GG sends a reset command Hushdeck deliberately never sends: it hasn’t been tested and may unpair the headset. Reset from the GameHub itself: System Settings → Reset." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GG sendet einen Reset-Befehl, den Hushdeck bewusst nie sendet: Er ist ungetestet und könnte die Kopplung des Headsets aufheben. Setze stattdessen am GameHub selbst zurück: System Settings → Reset."
+          }
+        }
+      }
+    },
+    "GG’s “Live Mic Preview” plays your mic back through the headset from the computer. Hushdeck doesn’t offer it yet; sidetone gives a similar check." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GGs „Live Mic Preview“ spielt dein Mikrofon vom Computer aus über das Headset ab. Hushdeck bietet das noch nicht; der Mithörton erlaubt eine ähnliche Kontrolle."
+          }
+        }
+      }
+    },
+    "Gain" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verstärkung"
+          }
+        }
+      }
+    },
+    "Game %@ · Chat %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spiel %1$@ · Chat %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Game %1$@ · Chat %2$@"
+          }
+        }
+      }
+    },
+    "Game preset" : {
+      "comment" : "The 2.4 GHz EQ slot GG uses for game and library presets",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spiel-Voreinstellung"
+          }
+        }
+      }
+    },
+    "GameHub" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GameHub"
+          }
+        }
+      }
+    },
+    "GameHub connected" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GameHub verbunden"
+          }
+        }
+      }
+    },
+    "HUSHDECK_SIMULATED_OMNI is set, so Hushdeck talks to OmniKit’s fake hub." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HUSHDECK_SIMULATED_OMNI ist gesetzt, deshalb spricht Hushdeck mit dem simulierten Hub von OmniKit."
+          }
+        }
+      }
+    },
+    "Headset" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Headset"
+          }
+        }
+      }
+    },
+    "Headset & Hub" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Headset & Hub"
+          }
+        }
+      }
+    },
+    "Headset Off" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Headset aus"
+          }
+        }
+      }
+    },
+    "Headset On" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Headset an"
+          }
+        }
+      }
+    },
+    "Headset battery" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Headset-Akku"
+          }
+        }
+      }
+    },
+    "Headset battery low" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Headset-Akku fast leer"
+          }
+        }
+      }
+    },
+    "Headset fully charged" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Headset vollständig geladen"
+          }
+        }
+      }
+    },
+    "Headset is off or out of range" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Headset ist aus oder außer Reichweite"
+          }
+        }
+      }
+    },
+    "Headset is pairing" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Headset wird gekoppelt"
+          }
+        }
+      }
+    },
+    "Headset link" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Headset-Verbindung"
+          }
+        }
+      }
+    },
+    "Headset off" : {
+      "comment" : "Test profile: battery unavailable",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Headset aus"
+          }
+        }
+      }
+    },
+    "HeadsetControl" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HeadsetControl"
+          }
+        }
+      }
+    },
+    "HeadsetControl didn’t respond within %lld s." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HeadsetControl hat nicht innerhalb von %lld s geantwortet."
+          }
+        }
+      }
+    },
+    "HeadsetControl isn’t installed." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HeadsetControl ist nicht installiert."
+          }
+        }
+      }
+    },
+    "HeadsetControl not found" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HeadsetControl nicht gefunden"
+          }
+        }
+      }
+    },
+    "HeadsetControl reported an error." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HeadsetControl hat einen Fehler gemeldet."
+          }
+        }
+      }
+    },
+    "HeadsetControl returned output Hushdeck can’t read." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HeadsetControl hat eine Ausgabe geliefert, die Hushdeck nicht lesen kann."
+          }
+        }
+      }
+    },
+    "Hear your own voice in the headset." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die eigene Stimme im Headset hören."
+          }
+        }
+      }
+    },
+    "High" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoch"
+          }
+        }
+      }
+    },
+    "High shelf" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "High-Shelf"
+          }
+        }
+      }
+    },
+    "High-pass" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochpass"
+          }
+        }
+      }
+    },
+    "Home screen" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Startbildschirm"
+          }
+        }
+      }
+    },
+    "Home screen shows" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Startbildschirm zeigt"
+          }
+        }
+      }
+    },
+    "Homebrew" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Homebrew"
+          }
+        }
+      }
+    },
+    "Hot Swap" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akku tauschen"
+          }
+        }
+      }
+    },
+    "How much of your own voice you hear" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wie viel du von deiner eigenen Stimme hörst"
+          }
+        }
+      }
+    },
+    "Hub settings still work. Headset settings apply when it reconnects." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hub-Einstellungen funktionieren weiterhin. Headset-Einstellungen gelten, sobald es wieder verbunden ist."
+          }
+        }
+      }
+    },
+    "Hub volume" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hub-Lautstärke"
+          }
+        }
+      }
+    },
+    "Hushdeck" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hushdeck"
+          }
+        }
+      }
+    },
+    "Hushdeck is talking to HeadsetControl’s simulated test device" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hushdeck verwendet das simulierte Testgerät von HeadsetControl"
+          }
+        }
+      }
+    },
+    "Hushdeck is talking to OmniKit’s simulated GameHub" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hushdeck verwendet den simulierten GameHub von OmniKit"
+          }
+        }
+      }
+    },
+    "Hushdeck isn’t listening for the GameHub." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hushdeck wartet nicht auf den GameHub."
+          }
+        }
+      }
+    },
+    "Hushdeck runs HeadsetControl as a separate program to talk to your headset. HeadsetControl is free software under the GNU General Public License, version 3. Its source code is available from its project page." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hushdeck startet HeadsetControl als eigenständiges Programm, um mit deinem Headset zu kommunizieren. HeadsetControl ist freie Software unter der GNU General Public License, Version 3. Der Quellcode ist auf der Projektseite verfügbar."
+          }
+        }
+      }
+    },
+    "Hushdeck uses the headsetcontrol command-line tool to talk to your headset. Install it with Homebrew, or choose where it is." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hushdeck verwendet das Befehlszeilenprogramm headsetcontrol, um mit deinem Headset zu kommunizieren. Installiere es mit Homebrew oder wähle aus, wo es liegt."
+          }
+        }
+      }
+    },
+    "Hushdeck, %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hushdeck, %@"
+          }
+        }
+      }
+    },
+    "Hushdeck, %@ is off" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hushdeck, %@ ist aus"
+          }
+        }
+      }
+    },
+    "Hushdeck, HeadsetControl not found" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hushdeck, HeadsetControl nicht gefunden"
+          }
+        }
+      }
+    },
+    "Hushdeck, battery %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hushdeck, Akku %@"
+          }
+        }
+      }
+    },
+    "Hushdeck, battery %@, charging" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hushdeck, Akku %@, wird geladen"
+          }
+        }
+      }
+    },
+    "Hushdeck, charging" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hushdeck, wird geladen"
+          }
+        }
+      }
+    },
+    "Hushdeck, no headset" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hushdeck, kein Headset"
+          }
+        }
+      }
+    },
+    "Identity" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Identität"
+          }
+        }
+      }
+    },
+    "Import Profile" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profil importieren"
+          }
+        }
+      }
+    },
+    "Imported “%@”" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@“ importiert"
+          }
+        }
+      }
+    },
+    "Import…" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importieren …"
+          }
+        }
+      }
+    },
+    "In a call" : {
+      "comment" : "Bluetooth link status: busy",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Im Gespräch"
+          }
+        }
+      }
+    },
+    "In use" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwendet"
+          }
+        }
+      }
+    },
+    "Keep the current settings on the GameHub after it loses power (GG does this after every change)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die aktuellen Einstellungen auf dem GameHub behalten, auch wenn er keinen Strom hat (GG tut das nach jeder Änderung)"
+          }
+        }
+      }
+    },
+    "Last full read" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letztes vollständiges Lesen"
+          }
+        }
+      }
+    },
+    "Last hub event" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letztes Hub-Ereignis"
+          }
+        }
+      }
+    },
+    "Late night" : {
+      "comment" : "Sample profile name in snapshots",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spätabends"
+          }
+        }
+      }
+    },
+    "Less Nasal" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Less Nasal"
+          }
+        }
+      }
+    },
+    "Level" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pegel"
+          }
+        }
+      }
+    },
+    "Lights" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beleuchtung"
+          }
+        }
+      }
+    },
+    "Limited controls" : {
+      "comment" : "Test profile: few capabilities",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eingeschränkte Steuerung"
+          }
+        }
+      }
+    },
+    "Line out" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Line-Out"
+          }
+        }
+      }
+    },
+    "Link lost" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbindung verloren"
+          }
+        }
+      }
+    },
+    "Live" : {
+      "comment" : "Microphone is not muted",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktiv"
+          }
+        }
+      }
+    },
+    "Live updates" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Live-Aktualisierung"
+          }
+        }
+      }
+    },
+    "Looking for your headset…" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suche nach deinem Headset …"
+          }
+        }
+      }
+    },
+    "Low" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niedrig"
+          }
+        }
+      }
+    },
+    "Low battery" : {
+      "comment" : "Test profile: 10 percent",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niedriger Akkustand"
+          }
+        }
+      }
+    },
+    "Low shelf" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Low-Shelf"
+          }
+        }
+      }
+    },
+    "Low-pass" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiefpass"
+          }
+        }
+      }
+    },
+    "Lower game volume by 12 dB" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spiellautstärke um 12 dB senken"
+          }
+        }
+      }
+    },
+    "Main" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haupt"
+          }
+        }
+      }
+    },
+    "Med" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mittel"
+          }
+        }
+      }
+    },
+    "Medium" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mittel"
+          }
+        }
+      }
+    },
+    "Menu bar controls for your wireless headset." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Steuerung für dein kabelloses Headset in der Menüleiste."
+          }
+        }
+      }
+    },
+    "Meters" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pegelanzeige"
+          }
+        }
+      }
+    },
+    "Mic level" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofonpegel"
+          }
+        }
+      }
+    },
+    "Mic mute" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon-Stummschaltung"
+          }
+        }
+      }
+    },
+    "Microphone" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon"
+          }
+        }
+      }
+    },
+    "Microphone equalizer" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon-Equalizer"
+          }
+        }
+      }
+    },
+    "Midnight Blue" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitternachtsblau"
+          }
+        }
+      }
+    },
+    "Mode" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modus"
+          }
+        }
+      }
+    },
+    "More" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mehr"
+          }
+        }
+      }
+    },
+    "More chat" : {
+      "comment" : "Chat mix favours chat audio",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mehr Chat"
+          }
+        }
+      }
+    },
+    "More game" : {
+      "comment" : "Chat mix favours game audio",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mehr Spiel"
+          }
+        }
+      }
+    },
+    "Mute game volume" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spiel stummschalten"
+          }
+        }
+      }
+    },
+    "Mute light" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stummschalt-LED"
+          }
+        }
+      }
+    },
+    "Mute when mic is raised" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stumm bei hochgeklapptem Mikrofon"
+          }
+        }
+      }
+    },
+    "Muted" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stumm"
+          }
+        }
+      }
+    },
+    "Name" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Name"
+          }
+        }
+      }
+    },
+    "Never" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie"
+          }
+        }
+      }
+    },
+    "Never turns off" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schaltet nie ab"
+          }
+        }
+      }
+    },
+    "No GameHub connected" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kein GameHub verbunden"
+          }
+        }
+      }
+    },
+    "No executable at that path. Using the automatic location instead." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "An diesem Pfad gibt es kein Programm. Stattdessen wird der automatische Ort verwendet."
+          }
+        }
+      }
+    },
+    "No headset connected" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kein Headset verbunden"
+          }
+        }
+      }
+    },
+    "No profiles yet" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch keine Profile"
+          }
+        }
+      }
+    },
+    "No supported headset is connected." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es ist kein unterstütztes Headset verbunden."
+          }
+        }
+      }
+    },
+    "Noise cancelling" : {
+      "comment" : "ANC mode",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geräuschunterdrückung"
+          }
+        }
+      }
+    },
+    "Noise cancelling level" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stärke der Geräuschunterdrückung"
+          }
+        }
+      }
+    },
+    "Noise control" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geräuschkontrolle"
+          }
+        }
+      }
+    },
+    "Noise filter" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rauschfilter"
+          }
+        }
+      }
+    },
+    "Noise reduction" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rauschunterdrückung"
+          }
+        }
+      }
+    },
+    "Normal battery" : {
+      "comment" : "Test profile: battery at 42 percent",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normaler Akkustand"
+          }
+        }
+      }
+    },
+    "Not applied" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht angewendet"
+          }
+        }
+      }
+    },
+    "Not connected" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht verbunden"
+          }
+        }
+      }
+    },
+    "Not found" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht gefunden"
+          }
+        }
+      }
+    },
+    "Not offered" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht angeboten"
+          }
+        }
+      }
+    },
+    "Not paired" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht gekoppelt"
+          }
+        }
+      }
+    },
+    "Not set" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht festgelegt"
+          }
+        }
+      }
+    },
+    "Not tested on real hardware yet, and the byte layout is partly inferred: the value shown may be off until a USB capture confirms it." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch nicht auf echter Hardware getestet, und das Byte-Layout ist teilweise abgeleitet: Der angezeigte Wert kann abweichen, bis eine USB-Aufzeichnung ihn bestätigt."
+          }
+        }
+      }
+    },
+    "Not tested on real hardware yet. The command and its values are documented, but no real hub has confirmed them." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch nicht auf echter Hardware getestet. Befehl und Werte sind dokumentiert, wurden aber noch an keinem echten Hub bestätigt."
+          }
+        }
+      }
+    },
+    "Notch" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kerbfilter"
+          }
+        }
+      }
+    },
+    "Notification sound" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hinweiston"
+          }
+        }
+      }
+    },
+    "Notifications" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitteilungen"
+          }
+        }
+      }
+    },
+    "Notifications are turned off for Hushdeck." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitteilungen sind für Hushdeck deaktiviert."
+          }
+        }
+      }
+    },
+    "Notifications only work when Hushdeck runs as an app bundle." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitteilungen funktionieren nur, wenn Hushdeck als App-Bundle läuft."
+          }
+        }
+      }
+    },
+    "Off" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aus"
+          }
+        }
+      }
+    },
+    "Off after %lld min" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aus nach %lld Min."
+          }
+        }
+      }
+    },
+    "Off or out of range" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aus oder außer Reichweite"
+          }
+        }
+      }
+    },
+    "OmniKit (USB HID)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OmniKit (USB HID)"
+          }
+        }
+      }
+    },
+    "OmniKit (simulated GameHub)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OmniKit (simulierter GameHub)"
+          }
+        }
+      }
+    },
+    "On" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein"
+          }
+        }
+      }
+    },
+    "On battery" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akkubetrieb"
+          }
+        }
+      }
+    },
+    "On because HUSHDECK_TEST_DEVICE is set." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktiv, weil HUSHDECK_TEST_DEVICE gesetzt ist."
+          }
+        }
+      }
+    },
+    "On keeps the output gain low; the GameHub’s screen calls this “Gain: Low”." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eingeschaltet bleibt die Ausgangsverstärkung niedrig; auf dem Display des GameHub heißt das „Gain: Low“."
+          }
+        }
+      }
+    },
+    "On the hub" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auf dem Hub"
+          }
+        }
+      }
+    },
+    "On the hub: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auf dem Hub: %@"
+          }
+        }
+      }
+    },
+    "On-device noise rejection for the boom mic. Works on every platform, unlike Sonar’s software filters." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rauschunterdrückung im Gerät für das Bügelmikrofon. Funktioniert auf jeder Plattform, anders als die Softwarefilter von Sonar."
+          }
+        }
+      }
+    },
+    "On-device settings" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geräteeinstellungen"
+          }
+        }
+      }
+    },
+    "Once per charge, when the headset drops to the level below." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einmal pro Ladung, wenn das Headset den unten gewählten Stand erreicht."
+          }
+        }
+      }
+    },
+    "Open Hushdeck" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hushdeck öffnen"
+          }
+        }
+      }
+    },
+    "Open Notification Settings…" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitteilungseinstellungen öffnen …"
+          }
+        }
+      }
+    },
+    "Open at login" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beim Anmelden öffnen"
+          }
+        }
+      }
+    },
+    "Open the full window with every setting, the equalizers and profiles" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das vollständige Fenster mit allen Einstellungen, den Equalizern und Profilen öffnen"
+          }
+        }
+      }
+    },
+    "Output" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausgang"
+          }
+        }
+      }
+    },
+    "Pairing…" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wird gekoppelt …"
+          }
+        }
+      }
+    },
+    "Peaking" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glocke"
+          }
+        }
+      }
+    },
+    "Play" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abspielen"
+          }
+        }
+      }
+    },
+    "Plug In Hub" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hub einstecken"
+          }
+        }
+      }
+    },
+    "Plug the Arctis Nova Pro Omni GameHub into this Mac over USB. Hushdeck notices it within a few seconds." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schließe den GameHub des Arctis Nova Pro Omni per USB an diesen Mac an. Hushdeck erkennt ihn innerhalb weniger Sekunden."
+          }
+        }
+      }
+    },
+    "Plugged in, charged" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Angeschlossen, geladen"
+          }
+        }
+      }
+    },
+    "Power" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Energie"
+          }
+        }
+      }
+    },
+    "Power the headset off after this long without audio" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Headset nach dieser Zeit ohne Audio ausschalten"
+          }
+        }
+      }
+    },
+    "Preset" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voreinstellung"
+          }
+        }
+      }
+    },
+    "Preset %lld" : {
+      "comment" : "Equalizer preset without a name",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voreinstellung %lld"
+          }
+        }
+      }
+    },
+    "Preset name" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Name der Voreinstellung"
+          }
+        }
+      }
+    },
+    "Preset names" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Namen der Voreinstellungen"
+          }
+        }
+      }
+    },
+    "Profile" : {
+      "comment" : "Default name for a new profile",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profil"
+          }
+        }
+      }
+    },
+    "Profile name" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profilname"
+          }
+        }
+      }
+    },
+    "Profiles" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile"
+          }
+        }
+      }
+    },
+    "Project Page" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Projektseite"
+          }
+        }
+      }
+    },
+    "Q" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Q"
+          }
+        }
+      }
+    },
+    "Quit Hushdeck" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hushdeck beenden"
+          }
+        }
+      }
+    },
+    "Range" : {
+      "comment" : "2.4 GHz wireless mode",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reichweite"
+          }
+        }
+      }
+    },
+    "Read everything from the GameHub again" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alles erneut vom GameHub lesen"
+          }
+        }
+      }
+    },
+    "Read problems" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leseprobleme"
+          }
+        }
+      }
+    },
+    "Ready" : {
+      "comment" : "Bluetooth link status",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bereit"
+          }
+        }
+      }
+    },
+    "Ready to swap" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bereit zum Tausch"
+          }
+        }
+      }
+    },
+    "Receiver MCU" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empfänger-MCU"
+          }
+        }
+      }
+    },
+    "Refresh" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualisieren"
+          }
+        }
+      }
+    },
+    "Refresh now" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jetzt aktualisieren"
+          }
+        }
+      }
+    },
+    "Reload from Hub" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vom Hub neu laden"
+          }
+        }
+      }
+    },
+    "Rename" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Umbenennen"
+          }
+        }
+      }
+    },
+    "Rename profile" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profil umbenennen"
+          }
+        }
+      }
+    },
+    "Rename…" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Umbenennen …"
+          }
+        }
+      }
+    },
+    "Report an Issue" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Problem melden"
+          }
+        }
+      }
+    },
+    "Reset" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zurücksetzen"
+          }
+        }
+      }
+    },
+    "Restore settings on reconnect" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellungen beim Verbinden wiederherstellen"
+          }
+        }
+      }
+    },
+    "Restored your settings on %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deine Einstellungen auf %@ wurden wiederhergestellt"
+          }
+        }
+      }
+    },
+    "Retry" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erneut versuchen"
+          }
+        }
+      }
+    },
+    "Revert" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zurücksetzen"
+          }
+        }
+      }
+    },
+    "Save" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sichern"
+          }
+        }
+      }
+    },
+    "Save Current Settings…" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktuelle Einstellungen sichern …"
+          }
+        }
+      }
+    },
+    "Save as Preset…" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Als Voreinstellung sichern …"
+          }
+        }
+      }
+    },
+    "Save the GameHub’s current settings as a profile" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die aktuellen Einstellungen des GameHub als Profil sichern"
+          }
+        }
+      }
+    },
+    "Save the current curve as a preset" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die aktuelle Kurve als Voreinstellung sichern"
+          }
+        }
+      }
+    },
+    "Save the current settings to create one. Profiles can also be switched from the menu bar." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sichere die aktuellen Einstellungen, um eines anzulegen. Profile lassen sich auch über die Menüleiste wechseln."
+          }
+        }
+      }
+    },
+    "Save to Hub" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auf Hub sichern"
+          }
+        }
+      }
+    },
+    "Save to device" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auf dem Gerät sichern"
+          }
+        }
+      }
+    },
+    "Save, delete or reload presets" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voreinstellungen sichern, löschen oder neu laden"
+          }
+        }
+      }
+    },
+    "Saved in Hushdeck" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In Hushdeck gesichert"
+          }
+        }
+      }
+    },
+    "Saved to the GameHub" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auf dem GameHub gesichert"
+          }
+        }
+      }
+    },
+    "Screen" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Display"
+          }
+        }
+      }
+    },
+    "Screen brightness" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Displayhelligkeit"
+          }
+        }
+      }
+    },
+    "Screen off" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Display aus"
+          }
+        }
+      }
+    },
+    "Screen saver" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bildschirmschoner"
+          }
+        }
+      }
+    },
+    "Screen saver after" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bildschirmschoner nach"
+          }
+        }
+      }
+    },
+    "Send every setting in this profile to the GameHub and save it there" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle Einstellungen dieses Profils an den GameHub senden und dort sichern"
+          }
+        }
+      }
+    },
+    "Send to Hub" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "An Hub senden"
+          }
+        }
+      }
+    },
+    "Serial number" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seriennummer"
+          }
+        }
+      }
+    },
+    "Set every band to %@ dB" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle Bänder auf %@ dB setzen"
+          }
+        }
+      }
+    },
+    "Set every band to 0 dB" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle Bänder auf 0 dB setzen"
+          }
+        }
+      }
+    },
+    "Settings" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellungen"
+          }
+        }
+      }
+    },
+    "Show battery level in menu bar" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akkustand in der Menüleiste zeigen"
+          }
+        }
+      }
+    },
+    "Sidetone" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mithörton"
+          }
+        }
+      }
+    },
+    "Sidetone %lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mithörton %lld"
+          }
+        }
+      }
+    },
+    "Sidetone level" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mithörton-Pegel"
+          }
+        }
+      }
+    },
+    "Sidetone off" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mithörton aus"
+          }
+        }
+      }
+    },
+    "Simple" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einfach"
+          }
+        }
+      }
+    },
+    "Simulate battery and error states. HUSHDECK_TEST_PROFILE overrides this." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akku- und Fehlerzustände simulieren. HUSHDECK_TEST_PROFILE hat Vorrang."
+          }
+        }
+      }
+    },
+    "Simulated" : {
+      "comment" : "Footer tag: the Omni GameHub is OmniKit's simulated one",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simuliert"
+          }
+        }
+      }
+    },
+    "Simulated GameHub" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simulierter GameHub"
+          }
+        }
+      }
+    },
+    "Smiley" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smiley"
+          }
+        }
+      }
+    },
+    "Sound" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klang"
+          }
+        }
+      }
+    },
+    "Spare %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ersatz %@"
+          }
+        }
+      }
+    },
+    "Spare battery" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ersatzakku"
+          }
+        }
+      }
+    },
+    "Spare battery charged" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ersatzakku geladen"
+          }
+        }
+      }
+    },
+    "Speakers" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lautsprecher"
+          }
+        }
+      }
+    },
+    "Speed" : {
+      "comment" : "2.4 GHz wireless mode",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geschwindigkeit"
+          }
+        }
+      }
+    },
+    "Start after" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starten nach"
+          }
+        }
+      }
+    },
+    "Stereo" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stereo"
+          }
+        }
+      }
+    },
+    "Stream mix" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stream-Mix"
+          }
+        }
+      }
+    },
+    "Stream mix levels apply in Streaming mode" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Stream-Mix-Pegel gelten im Streaming-Modus"
+          }
+        }
+      }
+    },
+    "Streaming" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Streaming"
+          }
+        }
+      }
+    },
+    "Streaming sends a separate mix to the line-out jack, for a second PC or a capture card." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Streaming sendet einen eigenen Mix an die Line-Out-Buchse, für einen zweiten PC oder eine Capture-Karte."
+          }
+        }
+      }
+    },
+    "Strength" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stärke"
+          }
+        }
+      }
+    },
+    "Swap batteries within 8 seconds and the headset powers back on by itself." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tausche die Akkus innerhalb von 8 Sekunden, dann schaltet sich das Headset von selbst wieder ein."
+          }
+        }
+      }
+    },
+    "Talk to HeadsetControl’s simulated headset instead of real hardware." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das simulierte Headset von HeadsetControl statt echter Hardware verwenden."
+          }
+        }
+      }
+    },
+    "Talks to the Arctis Nova Pro Omni GameHub directly over USB (OmniKit) and to other headsets through HeadsetControl. Open the About pane in the menu bar for licences." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spricht direkt per USB mit dem GameHub des Arctis Nova Pro Omni (OmniKit) und über HeadsetControl mit anderen Headsets. Lizenzen findest du im Bereich „Über“ in der Menüleiste."
+          }
+        }
+      }
+    },
+    "Ten parametric bands, each with a frequency, filter type, gain in 0.1 dB steps and Q. The 2.4 GHz link uses this equalizer; Bluetooth has its own below." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zehn parametrische Bänder, jeweils mit Frequenz, Filtertyp, Verstärkung in 0,1-dB-Schritten und Q. Die 2,4-GHz-Verbindung nutzt diesen Equalizer; Bluetooth hat unten einen eigenen."
+          }
+        }
+      }
+    },
+    "Test device" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Testgerät"
+          }
+        }
+      }
+    },
+    "Test profile" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Testprofil"
+          }
+        }
+      }
+    },
+    "The 2.4 GHz preset the GameHub reports. Changing it needs EQ writes, which are off until the byte layout is confirmed (Settings → Developer)." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die 2,4-GHz-Voreinstellung, die der GameHub meldet. Zum Ändern sind EQ-Schreibzugriffe nötig, die aus sind, bis das Byte-Layout bestätigt ist (Einstellungen → Entwickler)."
+          }
+        }
+      }
+    },
+    "The GameHub didn’t answer (%@)." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der GameHub hat nicht geantwortet (%@)."
+          }
+        }
+      }
+    },
+    "The GameHub isn’t connected." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der GameHub ist nicht verbunden."
+          }
+        }
+      }
+    },
+    "The GameHub just connected. Hushdeck waits 5 seconds before talking to it, like SteelSeries GG." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der GameHub wurde gerade verbunden. Hushdeck wartet wie SteelSeries GG 5 Sekunden, bevor es mit ihm spricht."
+          }
+        }
+      }
+    },
+    "The base station can forget settings when it loses power. Hushdeck sends your last choices again when the headset comes back." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Basisstation kann Einstellungen vergessen, wenn sie keinen Strom hat. Hushdeck sendet deine letzte Auswahl erneut, sobald das Headset wieder da ist."
+          }
+        }
+      }
+    },
+    "The first six letters appear on the GameHub’s screen." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die ersten sechs Buchstaben erscheinen auf dem Display des GameHub."
+          }
+        }
+      }
+    },
+    "The headset’s power button also toggles noise cancelling (single press) and transparency (double press). Changes made there show up here." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Ein-/Aus-Taste am Headset schaltet auch die Geräuschunterdrückung (einmal drücken) und den Transparenzmodus (zweimal drücken). Änderungen dort erscheinen hier."
+          }
+        }
+      }
+    },
+    "The mute button on the headset is pressed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Stummschalttaste am Headset ist gedrückt"
+          }
+        }
+      }
+    },
+    "The receiver is connected but the headset isn’t responding" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Empfänger ist verbunden, aber das Headset antwortet nicht"
+          }
+        }
+      }
+    },
+    "The spare battery in the %@ GameHub is at 100 %%. Swap it in whenever you like." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Ersatzakku im GameHub des %@ ist bei 100 %%. Du kannst ihn jederzeit einsetzen."
+          }
+        }
+      }
+    },
+    "Timeout" : {
+      "comment" : "Test profile: battery read times out",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeitüberschreitung"
+          }
+        }
+      }
+    },
+    "Toggle Mute" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stummschaltung umschalten"
+          }
+        }
+      }
+    },
+    "Transmitter MCU 1" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sender-MCU 1"
+          }
+        }
+      }
+    },
+    "Transmitter MCU 2" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sender-MCU 2"
+          }
+        }
+      }
+    },
+    "Transparency" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transparenz"
+          }
+        }
+      }
+    },
+    "Transparency level" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transparenz-Stufe"
+          }
+        }
+      }
+    },
+    "Try Again" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erneut versuchen"
+          }
+        }
+      }
+    },
+    "Turn Bluetooth on whenever the headset powers on." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bluetooth einschalten, sobald das Headset eingeschaltet wird."
+          }
+        }
+      }
+    },
+    "Turn headset off after" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Headset ausschalten nach"
+          }
+        }
+      }
+    },
+    "Turn off after" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausschalten nach"
+          }
+        }
+      }
+    },
+    "Turn on EQ writes in Settings → Developer first" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zuerst EQ-Schreibzugriffe unter Einstellungen → Entwickler einschalten"
+          }
+        }
+      }
+    },
+    "Turn this band off" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieses Band ausschalten"
+          }
+        }
+      }
+    },
+    "Turn this band on" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieses Band einschalten"
+          }
+        }
+      }
+    },
+    "Type" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Typ"
+          }
+        }
+      }
+    },
+    "USB 1" : {
+      "comment" : "Audio source",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "USB 1"
+          }
+        }
+      }
+    },
+    "USB 1 and Xbox" : {
+      "comment" : "Audio source",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "USB 1 und Xbox"
+          }
+        }
+      }
+    },
+    "USB 2" : {
+      "comment" : "Audio source",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "USB 2"
+          }
+        }
+      }
+    },
+    "USB 3" : {
+      "comment" : "Audio source",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "USB 3"
+          }
+        }
+      }
+    },
+    "USB ID" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "USB-ID"
+          }
+        }
+      }
+    },
+    "USB product" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "USB-Produkt"
+          }
+        }
+      }
+    },
+    "USB release" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "USB-Version"
+          }
+        }
+      }
+    },
+    "USB serial" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "USB-Seriennummer"
+          }
+        }
+      }
+    },
+    "Unplug Hub" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hub abziehen"
+          }
+        }
+      }
+    },
+    "Unverified" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ungeprüft"
+          }
+        }
+      }
+    },
+    "Update from Current Settings" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit aktuellen Einstellungen aktualisieren"
+          }
+        }
+      }
+    },
+    "Upload this equalizer to the GameHub" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diesen Equalizer auf den GameHub hochladen"
+          }
+        }
+      }
+    },
+    "Use Automatic" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatisch verwenden"
+          }
+        }
+      }
+    },
+    "Use test device" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Testgerät verwenden"
+          }
+        }
+      }
+    },
+    "Used by the bundled HeadsetControl. Distributed under its BSD-style licence." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wird vom enthaltenen HeadsetControl verwendet. Verbreitet unter seiner BSD-artigen Lizenz."
+          }
+        }
+      }
+    },
+    "Version %@ (%@)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version %1$@ (%2$@)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Version %1$@ (%2$@)"
+          }
+        }
+      }
+    },
+    "View Licence" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lizenz anzeigen"
+          }
+        }
+      }
+    },
+    "Voice prompts" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sprachansagen"
+          }
+        }
+      }
+    },
+    "Volume" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lautstärke"
+          }
+        }
+      }
+    },
+    "Volume limiter" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lautstärkebegrenzer"
+          }
+        }
+      }
+    },
+    "Waiting a few seconds before talking to it, as SteelSeries GG does." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es wird wie bei SteelSeries GG ein paar Sekunden gewartet, bevor mit ihm gesprochen wird."
+          }
+        }
+      }
+    },
+    "Walkie Talkie" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Walkie Talkie"
+          }
+        }
+      }
+    },
+    "Website" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Website"
+          }
+        }
+      }
+    },
+    "What the GameHub reports right now. The OLED shows the short name." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Was der GameHub gerade meldet. Das OLED zeigt den Kurznamen."
+          }
+        }
+      }
+    },
+    "When no audio is playing." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wenn kein Ton wiedergegeben wird."
+          }
+        }
+      }
+    },
+    "When the spare battery in the Omni GameHub reaches 100 %." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wenn der Ersatzakku im Omni GameHub 100 % erreicht."
+          }
+        }
+      }
+    },
+    "White" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weiß"
+          }
+        }
+      }
+    },
+    "Wire: %@." : {
+      "comment" : "Tooltip suffix naming the USB command",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Befehl: %@."
+          }
+        }
+      }
+    },
+    "Wireless mode" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Funkmodus"
+          }
+        }
+      }
+    },
+    "the headset rejected the change" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "das Headset hat die Änderung abgelehnt"
+          }
+        }
+      }
+    },
+    "unnamed" : {
+      "comment" : "EQ preset without a stored name",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ohne Namen"
+          }
+        }
+      }
+    },
+    "—" : {
+      "comment" : "Value not available",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "—"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

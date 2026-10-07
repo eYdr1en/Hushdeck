@@ -1,0 +1,134 @@
+name: CI
+
+# Every push and pull request: warning-free build, tests, String Catalog check and an
+# app bundle. Tags named v* also package Hushdeck-<version>.zip plus its SHA-256 and
+# attach them to a draft GitHub release.
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+    paths-ignore: ["protocol/**", "tools/**", "**/*.md"]
+  pull_request:
+    paths-ignore: ["protocol/**", "tools/**", "**/*.md"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: ${{ !startsWith(github.ref, 'refs/tags/') }}
+
+env:
+  # HeadsetControl is built from source so the bundled binary's exact source revision
+  # is known (GPL-3.0). Pin a tag or commit here for reproducible releases.
+  HEADSETCONTROL_REPOSITORY: https://github.com/Sapd/HeadsetControl.git
+  HEADSETCONTROL_REF: master
+
+jobs:
+  build:
+    # Package.swift needs Swift 6.2 tools (Xcode 26 or later).
+    runs-on: macos-26
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Toolchain
+        run: |
+          xcodebuild -version
+          swift --version
+
+      - name: Build HeadsetControl
+        working-directory: ${{ runner.temp }}
+        run: |
+          brew list hidapi >/dev/null 2>&1 || brew install hidapi
+          git init -q headsetcontrol
+          cd headsetcontrol
+          git remote add origin "$HEADSETCONTROL_REPOSITORY"
+          git fetch -q --depth 1 origin "$HEADSETCONTROL_REF"
+          git checkout -q FETCH_HEAD
+          cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+          cmake --build build --parallel
+          ./build/headsetcontrol --version
+          echo "HEADSETCONTROL_BIN=$PWD/build/headsetcontrol" >> "$GITHUB_ENV"
+          echo "HEADSETCONTROL_COMMIT=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+
+      - name: Build (warnings are errors)
+        run: swift build --build-tests -Xswiftc -warnings-as-errors
+
+      - name: Test
+        run: swift test
+
+      - name: String Catalog is complete
+        run: scripts/sync-strings.sh --check
+
+      - name: Version
+        id: version
+        run: |
+          if [[ "$GITHUB_REF" == refs/tags/v* ]]; then
+            echo "value=${GITHUB_REF_NAME#v}" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=0.0.0-ci.${GITHUB_RUN_NUMBER}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build and package the app
+        env:
+          HUSHDECK_VERSION: ${{ steps.version.outputs.value }}
+          HUSHDECK_BUILD_NUMBER: ${{ github.run_number }}
+          HUSHDECK_REPOSITORY_URL: ${{ github.server_url }}/${{ github.repository }}
+        run: scripts/package-release.sh
+
+      - name: Record HeadsetControl source
+        run: |
+          cat > dist/HEADSETCONTROL-SOURCE.txt <<EOF
+          Hushdeck.app bundles headsetcontrol, built from:
+            $HEADSETCONTROL_REPOSITORY
+            commit $HEADSETCONTROL_COMMIT
+          HeadsetControl is licensed under GPL-3.0; the source for that commit is
+          available at https://github.com/Sapd/HeadsetControl/tree/$HEADSETCONTROL_COMMIT
+          EOF
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hushdeck-${{ steps.version.outputs.value }}
+          path: |
+            app/dist/Hushdeck-*.zip
+            app/dist/Hushdeck-*.zip.sha256
+            app/dist/hushdeck.rb
+            app/dist/HEADSETCONTROL-SOURCE.txt
+          if-no-files-found: error
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+          merge-multiple: true
+
+      - name: Verify checksum
+        working-directory: artifacts
+        run: sha256sum --check Hushdeck-*.zip.sha256
+
+      # A draft, so a maintainer reviews it before publishing (and then updates the
+      # cask in the tap with artifacts/hushdeck.rb).
+      - name: Create draft release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" \
+            --repo "$GITHUB_REPOSITORY" \
+            --draft \
+            --title "Hushdeck ${GITHUB_REF_NAME#v}" \
+            --generate-notes \
+            --notes-file artifacts/HEADSETCONTROL-SOURCE.txt \
+            artifacts/Hushdeck-*.zip \
+            artifacts/Hushdeck-*.zip.sha256 \
+            artifacts/hushdeck.rb

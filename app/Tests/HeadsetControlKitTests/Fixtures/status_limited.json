@@ -1,0 +1,31 @@
+{
+  "name": "HeadsetControl",
+  "version": "4.1.0-13-g25dadae",
+  "api_version": "1.5",
+  "hidapi_version": "0.15.0",
+  "device_count": 1,
+  "devices": [
+    {
+      "status": "success",
+      "device": "HeadsetControl Test device",
+      "vendor": "HeadsetControl",
+      "product": "Test Device",
+      "id_vendor": "0xf00b",
+      "id_product": "0xa00c",
+      "capabilities": [
+        "CAP_SIDETONE",
+        "CAP_BATTERY_STATUS",
+        "CAP_LIGHTS"
+      ],
+      "capabilities_str": [
+        "sidetone",
+        "battery",
+        "lights"
+      ],
+      "battery": {
+        "status": "BATTERY_AVAILABLE",
+        "level": 42
+      }
+    }
+  ]
+}

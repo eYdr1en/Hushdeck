@@ -1,0 +1,5331 @@
+{
+ "generator": "tools/omnikit_golden.py",
+ "source": "tools/probe.py (dry run: no --really, nothing transmitted)",
+ "cases": [
+  {
+   "id": "send sidetone 0",
+   "kind": "send",
+   "feature": "sidetone",
+   "value": "0",
+   "argv": [
+    "send",
+    "sidetone",
+    "0"
+   ],
+   "result": "packet",
+   "hex": "01380001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send sidetone 1",
+   "kind": "send",
+   "feature": "sidetone",
+   "value": "1",
+   "argv": [
+    "send",
+    "sidetone",
+    "1"
+   ],
+   "result": "packet",
+   "hex": "01380101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send sidetone 2",
+   "kind": "send",
+   "feature": "sidetone",
+   "value": "2",
+   "argv": [
+    "send",
+    "sidetone",
+    "2"
+   ],
+   "result": "packet",
+   "hex": "01380102000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send sidetone 3",
+   "kind": "send",
+   "feature": "sidetone",
+   "value": "3",
+   "argv": [
+    "send",
+    "sidetone",
+    "3"
+   ],
+   "result": "packet",
+   "hex": "01380103000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send sidetone 4",
+   "kind": "send",
+   "feature": "sidetone",
+   "value": "4",
+   "argv": [
+    "send",
+    "sidetone",
+    "4"
+   ],
+   "result": "packet",
+   "hex": "01380104000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send sidetone 5",
+   "kind": "send",
+   "feature": "sidetone",
+   "value": "5",
+   "argv": [
+    "send",
+    "sidetone",
+    "5"
+   ],
+   "result": "packet",
+   "hex": "01380105000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send sidetone 6",
+   "kind": "send",
+   "feature": "sidetone",
+   "value": "6",
+   "argv": [
+    "send",
+    "sidetone",
+    "6"
+   ],
+   "result": "packet",
+   "hex": "01380106000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send sidetone 7",
+   "kind": "send",
+   "feature": "sidetone",
+   "value": "7",
+   "argv": [
+    "send",
+    "sidetone",
+    "7"
+   ],
+   "result": "packet",
+   "hex": "01380107000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send sidetone 8",
+   "kind": "send",
+   "feature": "sidetone",
+   "value": "8",
+   "argv": [
+    "send",
+    "sidetone",
+    "8"
+   ],
+   "result": "packet",
+   "hex": "01380108000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send sidetone 9",
+   "kind": "send",
+   "feature": "sidetone",
+   "value": "9",
+   "argv": [
+    "send",
+    "sidetone",
+    "9"
+   ],
+   "result": "packet",
+   "hex": "01380109000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send sidetone 10",
+   "kind": "send",
+   "feature": "sidetone",
+   "value": "10",
+   "argv": [
+    "send",
+    "sidetone",
+    "10"
+   ],
+   "result": "packet",
+   "hex": "0138010A000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send sidetone 11",
+   "kind": "send",
+   "feature": "sidetone",
+   "value": "11",
+   "argv": [
+    "send",
+    "sidetone",
+    "11"
+   ],
+   "result": "rejected",
+   "message": "error: value 11 outside 0..10 (use --force to override)"
+  },
+  {
+   "id": "send mic-volume 0",
+   "kind": "send",
+   "feature": "mic-volume",
+   "value": "0",
+   "argv": [
+    "send",
+    "mic-volume",
+    "0"
+   ],
+   "result": "rejected",
+   "message": "error: value 0 outside 1..10 (use --force to override)"
+  },
+  {
+   "id": "send mic-volume 1",
+   "kind": "send",
+   "feature": "mic-volume",
+   "value": "1",
+   "argv": [
+    "send",
+    "mic-volume",
+    "1"
+   ],
+   "result": "packet",
+   "hex": "01370100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send mic-volume 2",
+   "kind": "send",
+   "feature": "mic-volume",
+   "value": "2",
+   "argv": [
+    "send",
+    "mic-volume",
+    "2"
+   ],
+   "result": "packet",
+   "hex": "01370200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send mic-volume 3",
+   "kind": "send",
+   "feature": "mic-volume",
+   "value": "3",
+   "argv": [
+    "send",
+    "mic-volume",
+    "3"
+   ],
+   "result": "packet",
+   "hex": "01370300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send mic-volume 4",
+   "kind": "send",
+   "feature": "mic-volume",
+   "value": "4",
+   "argv": [
+    "send",
+    "mic-volume",
+    "4"
+   ],
+   "result": "packet",
+   "hex": "01370400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send mic-volume 5",
+   "kind": "send",
+   "feature": "mic-volume",
+   "value": "5",
+   "argv": [
+    "send",
+    "mic-volume",
+    "5"
+   ],
+   "result": "packet",
+   "hex": "01370500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send mic-volume 6",
+   "kind": "send",
+   "feature": "mic-volume",
+   "value": "6",
+   "argv": [
+    "send",
+    "mic-volume",
+    "6"
+   ],
+   "result": "packet",
+   "hex": "01370600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send mic-volume 7",
+   "kind": "send",
+   "feature": "mic-volume",
+   "value": "7",
+   "argv": [
+    "send",
+    "mic-volume",
+    "7"
+   ],
+   "result": "packet",
+   "hex": "01370700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send mic-volume 8",
+   "kind": "send",
+   "feature": "mic-volume",
+   "value": "8",
+   "argv": [
+    "send",
+    "mic-volume",
+    "8"
+   ],
+   "result": "packet",
+   "hex": "01370800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send mic-volume 9",
+   "kind": "send",
+   "feature": "mic-volume",
+   "value": "9",
+   "argv": [
+    "send",
+    "mic-volume",
+    "9"
+   ],
+   "result": "packet",
+   "hex": "01370900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send mic-volume 10",
+   "kind": "send",
+   "feature": "mic-volume",
+   "value": "10",
+   "argv": [
+    "send",
+    "mic-volume",
+    "10"
+   ],
+   "result": "packet",
+   "hex": "01370A00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send mic-volume 11",
+   "kind": "send",
+   "feature": "mic-volume",
+   "value": "11",
+   "argv": [
+    "send",
+    "mic-volume",
+    "11"
+   ],
+   "result": "rejected",
+   "message": "error: value 11 outside 1..10 (use --force to override)"
+  },
+  {
+   "id": "send noise-reduction 0",
+   "kind": "send",
+   "feature": "noise-reduction",
+   "value": "0",
+   "argv": [
+    "send",
+    "noise-reduction",
+    "0"
+   ],
+   "result": "packet",
+   "hex": "013C0001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send noise-reduction 1",
+   "kind": "send",
+   "feature": "noise-reduction",
+   "value": "1",
+   "argv": [
+    "send",
+    "noise-reduction",
+    "1"
+   ],
+   "result": "packet",
+   "hex": "013C0101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send noise-reduction 2",
+   "kind": "send",
+   "feature": "noise-reduction",
+   "value": "2",
+   "argv": [
+    "send",
+    "noise-reduction",
+    "2"
+   ],
+   "result": "packet",
+   "hex": "013C0102000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send noise-reduction 3",
+   "kind": "send",
+   "feature": "noise-reduction",
+   "value": "3",
+   "argv": [
+    "send",
+    "noise-reduction",
+    "3"
+   ],
+   "result": "packet",
+   "hex": "013C0103000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send noise-reduction 4",
+   "kind": "send",
+   "feature": "noise-reduction",
+   "value": "4",
+   "argv": [
+    "send",
+    "noise-reduction",
+    "4"
+   ],
+   "result": "rejected",
+   "message": "error: value 4 outside 0..3 (use --force to override)"
+  },
+  {
+   "id": "send mic-led 0",
+   "kind": "send",
+   "feature": "mic-led",
+   "value": "0",
+   "argv": [
+    "send",
+    "mic-led",
+    "0"
+   ],
+   "result": "packet",
+   "hex": "01BF0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send mic-led 1",
+   "kind": "send",
+   "feature": "mic-led",
+   "value": "1",
+   "argv": [
+    "send",
+    "mic-led",
+    "1"
+   ],
+   "result": "packet",
+   "hex": "01BF0100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send mic-led 2",
+   "kind": "send",
+   "feature": "mic-led",
+   "value": "2",
+   "argv": [
+    "send",
+    "mic-led",
+    "2"
+   ],
+   "result": "packet",
+   "hex": "01BF0200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send mic-led 3",
+   "kind": "send",
+   "feature": "mic-led",
+   "value": "3",
+   "argv": [
+    "send",
+    "mic-led",
+    "3"
+   ],
+   "result": "packet",
+   "hex": "01BF0300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send mic-led 4",
+   "kind": "send",
+   "feature": "mic-led",
+   "value": "4",
+   "argv": [
+    "send",
+    "mic-led",
+    "4"
+   ],
+   "result": "packet",
+   "hex": "01BF0400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send mic-led 5",
+   "kind": "send",
+   "feature": "mic-led",
+   "value": "5",
+   "argv": [
+    "send",
+    "mic-led",
+    "5"
+   ],
+   "result": "packet",
+   "hex": "01BF0500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send mic-led 6",
+   "kind": "send",
+   "feature": "mic-led",
+   "value": "6",
+   "argv": [
+    "send",
+    "mic-led",
+    "6"
+   ],
+   "result": "packet",
+   "hex": "01BF0600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send mic-led 7",
+   "kind": "send",
+   "feature": "mic-led",
+   "value": "7",
+   "argv": [
+    "send",
+    "mic-led",
+    "7"
+   ],
+   "result": "packet",
+   "hex": "01BF0700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send mic-led 8",
+   "kind": "send",
+   "feature": "mic-led",
+   "value": "8",
+   "argv": [
+    "send",
+    "mic-led",
+    "8"
+   ],
+   "result": "packet",
+   "hex": "01BF0800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send mic-led 9",
+   "kind": "send",
+   "feature": "mic-led",
+   "value": "9",
+   "argv": [
+    "send",
+    "mic-led",
+    "9"
+   ],
+   "result": "packet",
+   "hex": "01BF0900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send mic-led 10",
+   "kind": "send",
+   "feature": "mic-led",
+   "value": "10",
+   "argv": [
+    "send",
+    "mic-led",
+    "10"
+   ],
+   "result": "packet",
+   "hex": "01BF0A00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send mic-led 11",
+   "kind": "send",
+   "feature": "mic-led",
+   "value": "11",
+   "argv": [
+    "send",
+    "mic-led",
+    "11"
+   ],
+   "result": "rejected",
+   "message": "error: value 11 outside 0..10 (use --force to override)"
+  },
+  {
+   "id": "send anc-mode 0",
+   "kind": "send",
+   "feature": "anc-mode",
+   "value": "0",
+   "argv": [
+    "send",
+    "anc-mode",
+    "0"
+   ],
+   "result": "packet",
+   "hex": "01BD0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send anc-mode 1",
+   "kind": "send",
+   "feature": "anc-mode",
+   "value": "1",
+   "argv": [
+    "send",
+    "anc-mode",
+    "1"
+   ],
+   "result": "packet",
+   "hex": "01BD0100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send anc-mode 2",
+   "kind": "send",
+   "feature": "anc-mode",
+   "value": "2",
+   "argv": [
+    "send",
+    "anc-mode",
+    "2"
+   ],
+   "result": "packet",
+   "hex": "01BD0200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send anc-mode 3",
+   "kind": "send",
+   "feature": "anc-mode",
+   "value": "3",
+   "argv": [
+    "send",
+    "anc-mode",
+    "3"
+   ],
+   "result": "rejected",
+   "message": "error: expected one of ['anc', 'off', 'transparency'] or [0, 1, 2]"
+  },
+  {
+   "id": "send anc-mode off",
+   "kind": "send",
+   "feature": "anc-mode",
+   "value": "off",
+   "argv": [
+    "send",
+    "anc-mode",
+    "off"
+   ],
+   "result": "packet",
+   "hex": "01BD0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send anc-mode transparency",
+   "kind": "send",
+   "feature": "anc-mode",
+   "value": "transparency",
+   "argv": [
+    "send",
+    "anc-mode",
+    "transparency"
+   ],
+   "result": "packet",
+   "hex": "01BD0100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send anc-mode anc",
+   "kind": "send",
+   "feature": "anc-mode",
+   "value": "anc",
+   "argv": [
+    "send",
+    "anc-mode",
+    "anc"
+   ],
+   "result": "packet",
+   "hex": "01BD0200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send anc-level 0",
+   "kind": "send",
+   "feature": "anc-level",
+   "value": "0",
+   "argv": [
+    "send",
+    "anc-level",
+    "0"
+   ],
+   "result": "rejected",
+   "message": "error: value 0 outside 1..3 (use --force to override)"
+  },
+  {
+   "id": "send anc-level 1",
+   "kind": "send",
+   "feature": "anc-level",
+   "value": "1",
+   "argv": [
+    "send",
+    "anc-level",
+    "1"
+   ],
+   "result": "packet",
+   "hex": "01B80100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send anc-level 2",
+   "kind": "send",
+   "feature": "anc-level",
+   "value": "2",
+   "argv": [
+    "send",
+    "anc-level",
+    "2"
+   ],
+   "result": "packet",
+   "hex": "01B80200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send anc-level 3",
+   "kind": "send",
+   "feature": "anc-level",
+   "value": "3",
+   "argv": [
+    "send",
+    "anc-level",
+    "3"
+   ],
+   "result": "packet",
+   "hex": "01B80300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send anc-level 4",
+   "kind": "send",
+   "feature": "anc-level",
+   "value": "4",
+   "argv": [
+    "send",
+    "anc-level",
+    "4"
+   ],
+   "result": "rejected",
+   "message": "error: value 4 outside 1..3 (use --force to override)"
+  },
+  {
+   "id": "send transparency-level 0",
+   "kind": "send",
+   "feature": "transparency-level",
+   "value": "0",
+   "argv": [
+    "send",
+    "transparency-level",
+    "0"
+   ],
+   "result": "rejected",
+   "message": "error: value 0 outside 1..10 (use --force to override)"
+  },
+  {
+   "id": "send transparency-level 1",
+   "kind": "send",
+   "feature": "transparency-level",
+   "value": "1",
+   "argv": [
+    "send",
+    "transparency-level",
+    "1"
+   ],
+   "result": "packet",
+   "hex": "01B90100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send transparency-level 2",
+   "kind": "send",
+   "feature": "transparency-level",
+   "value": "2",
+   "argv": [
+    "send",
+    "transparency-level",
+    "2"
+   ],
+   "result": "packet",
+   "hex": "01B90200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send transparency-level 3",
+   "kind": "send",
+   "feature": "transparency-level",
+   "value": "3",
+   "argv": [
+    "send",
+    "transparency-level",
+    "3"
+   ],
+   "result": "packet",
+   "hex": "01B90300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send transparency-level 4",
+   "kind": "send",
+   "feature": "transparency-level",
+   "value": "4",
+   "argv": [
+    "send",
+    "transparency-level",
+    "4"
+   ],
+   "result": "packet",
+   "hex": "01B90400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send transparency-level 5",
+   "kind": "send",
+   "feature": "transparency-level",
+   "value": "5",
+   "argv": [
+    "send",
+    "transparency-level",
+    "5"
+   ],
+   "result": "packet",
+   "hex": "01B90500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send transparency-level 6",
+   "kind": "send",
+   "feature": "transparency-level",
+   "value": "6",
+   "argv": [
+    "send",
+    "transparency-level",
+    "6"
+   ],
+   "result": "packet",
+   "hex": "01B90600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send transparency-level 7",
+   "kind": "send",
+   "feature": "transparency-level",
+   "value": "7",
+   "argv": [
+    "send",
+    "transparency-level",
+    "7"
+   ],
+   "result": "packet",
+   "hex": "01B90700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send transparency-level 8",
+   "kind": "send",
+   "feature": "transparency-level",
+   "value": "8",
+   "argv": [
+    "send",
+    "transparency-level",
+    "8"
+   ],
+   "result": "packet",
+   "hex": "01B90800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send transparency-level 9",
+   "kind": "send",
+   "feature": "transparency-level",
+   "value": "9",
+   "argv": [
+    "send",
+    "transparency-level",
+    "9"
+   ],
+   "result": "packet",
+   "hex": "01B90900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send transparency-level 10",
+   "kind": "send",
+   "feature": "transparency-level",
+   "value": "10",
+   "argv": [
+    "send",
+    "transparency-level",
+    "10"
+   ],
+   "result": "packet",
+   "hex": "01B90A00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send transparency-level 11",
+   "kind": "send",
+   "feature": "transparency-level",
+   "value": "11",
+   "argv": [
+    "send",
+    "transparency-level",
+    "11"
+   ],
+   "result": "rejected",
+   "message": "error: value 11 outside 1..10 (use --force to override)"
+  },
+  {
+   "id": "send auto-off 0",
+   "kind": "send",
+   "feature": "auto-off",
+   "value": "0",
+   "argv": [
+    "send",
+    "auto-off",
+    "0"
+   ],
+   "result": "packet",
+   "hex": "01C10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send screensaver-timer 0",
+   "kind": "send",
+   "feature": "screensaver-timer",
+   "value": "0",
+   "argv": [
+    "send",
+    "screensaver-timer",
+    "0"
+   ],
+   "result": "packet",
+   "hex": "01830000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send auto-off 1",
+   "kind": "send",
+   "feature": "auto-off",
+   "value": "1",
+   "argv": [
+    "send",
+    "auto-off",
+    "1"
+   ],
+   "result": "packet",
+   "hex": "01C10100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send screensaver-timer 1",
+   "kind": "send",
+   "feature": "screensaver-timer",
+   "value": "1",
+   "argv": [
+    "send",
+    "screensaver-timer",
+    "1"
+   ],
+   "result": "packet",
+   "hex": "01830100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send auto-off 2",
+   "kind": "send",
+   "feature": "auto-off",
+   "value": "2",
+   "argv": [
+    "send",
+    "auto-off",
+    "2"
+   ],
+   "result": "rejected",
+   "message": "error: minutes must be one of [0, 1, 5, 10, 15, 30, 60]"
+  },
+  {
+   "id": "send screensaver-timer 2",
+   "kind": "send",
+   "feature": "screensaver-timer",
+   "value": "2",
+   "argv": [
+    "send",
+    "screensaver-timer",
+    "2"
+   ],
+   "result": "rejected",
+   "message": "error: minutes must be one of [0, 1, 5, 10, 15, 30, 60]"
+  },
+  {
+   "id": "send auto-off 5",
+   "kind": "send",
+   "feature": "auto-off",
+   "value": "5",
+   "argv": [
+    "send",
+    "auto-off",
+    "5"
+   ],
+   "result": "packet",
+   "hex": "01C10200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send screensaver-timer 5",
+   "kind": "send",
+   "feature": "screensaver-timer",
+   "value": "5",
+   "argv": [
+    "send",
+    "screensaver-timer",
+    "5"
+   ],
+   "result": "packet",
+   "hex": "01830200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send auto-off 10",
+   "kind": "send",
+   "feature": "auto-off",
+   "value": "10",
+   "argv": [
+    "send",
+    "auto-off",
+    "10"
+   ],
+   "result": "packet",
+   "hex": "01C10300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send screensaver-timer 10",
+   "kind": "send",
+   "feature": "screensaver-timer",
+   "value": "10",
+   "argv": [
+    "send",
+    "screensaver-timer",
+    "10"
+   ],
+   "result": "packet",
+   "hex": "01830300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send auto-off 15",
+   "kind": "send",
+   "feature": "auto-off",
+   "value": "15",
+   "argv": [
+    "send",
+    "auto-off",
+    "15"
+   ],
+   "result": "packet",
+   "hex": "01C10400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send screensaver-timer 15",
+   "kind": "send",
+   "feature": "screensaver-timer",
+   "value": "15",
+   "argv": [
+    "send",
+    "screensaver-timer",
+    "15"
+   ],
+   "result": "packet",
+   "hex": "01830400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send auto-off 30",
+   "kind": "send",
+   "feature": "auto-off",
+   "value": "30",
+   "argv": [
+    "send",
+    "auto-off",
+    "30"
+   ],
+   "result": "packet",
+   "hex": "01C10500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send screensaver-timer 30",
+   "kind": "send",
+   "feature": "screensaver-timer",
+   "value": "30",
+   "argv": [
+    "send",
+    "screensaver-timer",
+    "30"
+   ],
+   "result": "packet",
+   "hex": "01830500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send auto-off 45",
+   "kind": "send",
+   "feature": "auto-off",
+   "value": "45",
+   "argv": [
+    "send",
+    "auto-off",
+    "45"
+   ],
+   "result": "rejected",
+   "message": "error: minutes must be one of [0, 1, 5, 10, 15, 30, 60]"
+  },
+  {
+   "id": "send screensaver-timer 45",
+   "kind": "send",
+   "feature": "screensaver-timer",
+   "value": "45",
+   "argv": [
+    "send",
+    "screensaver-timer",
+    "45"
+   ],
+   "result": "rejected",
+   "message": "error: minutes must be one of [0, 1, 5, 10, 15, 30, 60]"
+  },
+  {
+   "id": "send auto-off 60",
+   "kind": "send",
+   "feature": "auto-off",
+   "value": "60",
+   "argv": [
+    "send",
+    "auto-off",
+    "60"
+   ],
+   "result": "packet",
+   "hex": "01C10600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send screensaver-timer 60",
+   "kind": "send",
+   "feature": "screensaver-timer",
+   "value": "60",
+   "argv": [
+    "send",
+    "screensaver-timer",
+    "60"
+   ],
+   "result": "packet",
+   "hex": "01830600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send auto-off 90",
+   "kind": "send",
+   "feature": "auto-off",
+   "value": "90",
+   "argv": [
+    "send",
+    "auto-off",
+    "90"
+   ],
+   "result": "rejected",
+   "message": "error: minutes must be one of [0, 1, 5, 10, 15, 30, 60]"
+  },
+  {
+   "id": "send screensaver-timer 90",
+   "kind": "send",
+   "feature": "screensaver-timer",
+   "value": "90",
+   "argv": [
+    "send",
+    "screensaver-timer",
+    "90"
+   ],
+   "result": "rejected",
+   "message": "error: minutes must be one of [0, 1, 5, 10, 15, 30, 60]"
+  },
+  {
+   "id": "send volume-limiter 0",
+   "kind": "send",
+   "feature": "volume-limiter",
+   "value": "0",
+   "argv": [
+    "send",
+    "volume-limiter",
+    "0"
+   ],
+   "result": "packet",
+   "hex": "01270000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send volume-limiter 1",
+   "kind": "send",
+   "feature": "volume-limiter",
+   "value": "1",
+   "argv": [
+    "send",
+    "volume-limiter",
+    "1"
+   ],
+   "result": "packet",
+   "hex": "01270100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send volume-limiter 2",
+   "kind": "send",
+   "feature": "volume-limiter",
+   "value": "2",
+   "argv": [
+    "send",
+    "volume-limiter",
+    "2"
+   ],
+   "result": "rejected",
+   "message": "error: value 2 outside 0..1 (use --force to override)"
+  },
+  {
+   "id": "send line-out 0",
+   "kind": "send",
+   "feature": "line-out",
+   "value": "0",
+   "argv": [
+    "send",
+    "line-out",
+    "0"
+   ],
+   "result": "rejected",
+   "message": "error: expected one of ['speakers', 'streaming'] or [1, 2]"
+  },
+  {
+   "id": "send line-out 1",
+   "kind": "send",
+   "feature": "line-out",
+   "value": "1",
+   "argv": [
+    "send",
+    "line-out",
+    "1"
+   ],
+   "result": "packet",
+   "hex": "01430100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send line-out 2",
+   "kind": "send",
+   "feature": "line-out",
+   "value": "2",
+   "argv": [
+    "send",
+    "line-out",
+    "2"
+   ],
+   "result": "packet",
+   "hex": "01430200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send line-out 3",
+   "kind": "send",
+   "feature": "line-out",
+   "value": "3",
+   "argv": [
+    "send",
+    "line-out",
+    "3"
+   ],
+   "result": "rejected",
+   "message": "error: expected one of ['speakers', 'streaming'] or [1, 2]"
+  },
+  {
+   "id": "send line-out speakers",
+   "kind": "send",
+   "feature": "line-out",
+   "value": "speakers",
+   "argv": [
+    "send",
+    "line-out",
+    "speakers"
+   ],
+   "result": "packet",
+   "hex": "01430100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send line-out streaming",
+   "kind": "send",
+   "feature": "line-out",
+   "value": "streaming",
+   "argv": [
+    "send",
+    "line-out",
+    "streaming"
+   ],
+   "result": "packet",
+   "hex": "01430200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send stream-mix 100,100,100",
+   "kind": "send",
+   "feature": "stream-mix",
+   "value": "100,100,100",
+   "argv": [
+    "send",
+    "stream-mix",
+    "100,100,100"
+   ],
+   "result": "packet",
+   "hex": "01476464646400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send stream-mix 0,0,0",
+   "kind": "send",
+   "feature": "stream-mix",
+   "value": "0,0,0",
+   "argv": [
+    "send",
+    "stream-mix",
+    "0,0,0"
+   ],
+   "result": "packet",
+   "hex": "01470000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send stream-mix 100,80,60",
+   "kind": "send",
+   "feature": "stream-mix",
+   "value": "100,80,60",
+   "argv": [
+    "send",
+    "stream-mix",
+    "100,80,60"
+   ],
+   "result": "packet",
+   "hex": "01476464503C00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send stream-mix 55,5,95",
+   "kind": "send",
+   "feature": "stream-mix",
+   "value": "55,5,95",
+   "argv": [
+    "send",
+    "stream-mix",
+    "55,5,95"
+   ],
+   "result": "packet",
+   "hex": "01473737055F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send stream-mix 101,0,0",
+   "kind": "send",
+   "feature": "stream-mix",
+   "value": "101,0,0",
+   "argv": [
+    "send",
+    "stream-mix",
+    "101,0,0"
+   ],
+   "result": "rejected",
+   "message": "error: each stream-mix level must be 0..100"
+  },
+  {
+   "id": "send stream-mix 0,101,0",
+   "kind": "send",
+   "feature": "stream-mix",
+   "value": "0,101,0",
+   "argv": [
+    "send",
+    "stream-mix",
+    "0,101,0"
+   ],
+   "result": "rejected",
+   "message": "error: each stream-mix level must be 0..100"
+  },
+  {
+   "id": "send stream-mix 0,0,101",
+   "kind": "send",
+   "feature": "stream-mix",
+   "value": "0,0,101",
+   "argv": [
+    "send",
+    "stream-mix",
+    "0,0,101"
+   ],
+   "result": "rejected",
+   "message": "error: each stream-mix level must be 0..100"
+  },
+  {
+   "id": "send oled-brightness 0",
+   "kind": "send",
+   "feature": "oled-brightness",
+   "value": "0",
+   "argv": [
+    "send",
+    "oled-brightness",
+    "0"
+   ],
+   "result": "rejected",
+   "message": "error: value 0 outside 1..10 (use --force to override)"
+  },
+  {
+   "id": "send oled-brightness 1",
+   "kind": "send",
+   "feature": "oled-brightness",
+   "value": "1",
+   "argv": [
+    "send",
+    "oled-brightness",
+    "1"
+   ],
+   "result": "packet",
+   "hex": "01850100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send oled-brightness 2",
+   "kind": "send",
+   "feature": "oled-brightness",
+   "value": "2",
+   "argv": [
+    "send",
+    "oled-brightness",
+    "2"
+   ],
+   "result": "packet",
+   "hex": "01850200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send oled-brightness 3",
+   "kind": "send",
+   "feature": "oled-brightness",
+   "value": "3",
+   "argv": [
+    "send",
+    "oled-brightness",
+    "3"
+   ],
+   "result": "packet",
+   "hex": "01850300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send oled-brightness 4",
+   "kind": "send",
+   "feature": "oled-brightness",
+   "value": "4",
+   "argv": [
+    "send",
+    "oled-brightness",
+    "4"
+   ],
+   "result": "packet",
+   "hex": "01850400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send oled-brightness 5",
+   "kind": "send",
+   "feature": "oled-brightness",
+   "value": "5",
+   "argv": [
+    "send",
+    "oled-brightness",
+    "5"
+   ],
+   "result": "packet",
+   "hex": "01850500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send oled-brightness 6",
+   "kind": "send",
+   "feature": "oled-brightness",
+   "value": "6",
+   "argv": [
+    "send",
+    "oled-brightness",
+    "6"
+   ],
+   "result": "packet",
+   "hex": "01850600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send oled-brightness 7",
+   "kind": "send",
+   "feature": "oled-brightness",
+   "value": "7",
+   "argv": [
+    "send",
+    "oled-brightness",
+    "7"
+   ],
+   "result": "packet",
+   "hex": "01850700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send oled-brightness 8",
+   "kind": "send",
+   "feature": "oled-brightness",
+   "value": "8",
+   "argv": [
+    "send",
+    "oled-brightness",
+    "8"
+   ],
+   "result": "packet",
+   "hex": "01850800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send oled-brightness 9",
+   "kind": "send",
+   "feature": "oled-brightness",
+   "value": "9",
+   "argv": [
+    "send",
+    "oled-brightness",
+    "9"
+   ],
+   "result": "packet",
+   "hex": "01850900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send oled-brightness 10",
+   "kind": "send",
+   "feature": "oled-brightness",
+   "value": "10",
+   "argv": [
+    "send",
+    "oled-brightness",
+    "10"
+   ],
+   "result": "packet",
+   "hex": "01850A00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send oled-brightness 11",
+   "kind": "send",
+   "feature": "oled-brightness",
+   "value": "11",
+   "argv": [
+    "send",
+    "oled-brightness",
+    "11"
+   ],
+   "result": "rejected",
+   "message": "error: value 11 outside 1..10 (use --force to override)"
+  },
+  {
+   "id": "send screensaver-mode 0",
+   "kind": "send",
+   "feature": "screensaver-mode",
+   "value": "0",
+   "argv": [
+    "send",
+    "screensaver-mode",
+    "0"
+   ],
+   "result": "packet",
+   "hex": "01880000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send screensaver-mode 1",
+   "kind": "send",
+   "feature": "screensaver-mode",
+   "value": "1",
+   "argv": [
+    "send",
+    "screensaver-mode",
+    "1"
+   ],
+   "result": "packet",
+   "hex": "01880100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send screensaver-mode 2",
+   "kind": "send",
+   "feature": "screensaver-mode",
+   "value": "2",
+   "argv": [
+    "send",
+    "screensaver-mode",
+    "2"
+   ],
+   "result": "rejected",
+   "message": "error: expected one of ['dim', 'off'] or [0, 1]"
+  },
+  {
+   "id": "send screensaver-mode off",
+   "kind": "send",
+   "feature": "screensaver-mode",
+   "value": "off",
+   "argv": [
+    "send",
+    "screensaver-mode",
+    "off"
+   ],
+   "result": "packet",
+   "hex": "01880000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send screensaver-mode dim",
+   "kind": "send",
+   "feature": "screensaver-mode",
+   "value": "dim",
+   "argv": [
+    "send",
+    "screensaver-mode",
+    "dim"
+   ],
+   "result": "packet",
+   "hex": "01880100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send home-view 0",
+   "kind": "send",
+   "feature": "home-view",
+   "value": "0",
+   "argv": [
+    "send",
+    "home-view",
+    "0"
+   ],
+   "result": "packet",
+   "hex": "01890000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send home-view 1",
+   "kind": "send",
+   "feature": "home-view",
+   "value": "1",
+   "argv": [
+    "send",
+    "home-view",
+    "1"
+   ],
+   "result": "packet",
+   "hex": "01890100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send home-view 2",
+   "kind": "send",
+   "feature": "home-view",
+   "value": "2",
+   "argv": [
+    "send",
+    "home-view",
+    "2"
+   ],
+   "result": "rejected",
+   "message": "error: expected one of ['detailed', 'simple'] or [0, 1]"
+  },
+  {
+   "id": "send home-view detailed",
+   "kind": "send",
+   "feature": "home-view",
+   "value": "detailed",
+   "argv": [
+    "send",
+    "home-view",
+    "detailed"
+   ],
+   "result": "packet",
+   "hex": "01890000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send home-view simple",
+   "kind": "send",
+   "feature": "home-view",
+   "value": "simple",
+   "argv": [
+    "send",
+    "home-view",
+    "simple"
+   ],
+   "result": "packet",
+   "hex": "01890100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send home-option 0",
+   "kind": "send",
+   "feature": "home-option",
+   "value": "0",
+   "argv": [
+    "send",
+    "home-option",
+    "0"
+   ],
+   "result": "packet",
+   "hex": "018A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send home-option 1",
+   "kind": "send",
+   "feature": "home-option",
+   "value": "1",
+   "argv": [
+    "send",
+    "home-option",
+    "1"
+   ],
+   "result": "packet",
+   "hex": "018A0100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send home-option 2",
+   "kind": "send",
+   "feature": "home-option",
+   "value": "2",
+   "argv": [
+    "send",
+    "home-option",
+    "2"
+   ],
+   "result": "packet",
+   "hex": "018A0200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send home-option 3",
+   "kind": "send",
+   "feature": "home-option",
+   "value": "3",
+   "argv": [
+    "send",
+    "home-option",
+    "3"
+   ],
+   "result": "rejected",
+   "message": "error: expected one of ['meters', 'preset', 'stereo'] or [0, 1, 2]"
+  },
+  {
+   "id": "send home-option stereo",
+   "kind": "send",
+   "feature": "home-option",
+   "value": "stereo",
+   "argv": [
+    "send",
+    "home-option",
+    "stereo"
+   ],
+   "result": "packet",
+   "hex": "018A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send home-option preset",
+   "kind": "send",
+   "feature": "home-option",
+   "value": "preset",
+   "argv": [
+    "send",
+    "home-option",
+    "preset"
+   ],
+   "result": "packet",
+   "hex": "018A0100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send home-option meters",
+   "kind": "send",
+   "feature": "home-option",
+   "value": "meters",
+   "argv": [
+    "send",
+    "home-option",
+    "meters"
+   ],
+   "result": "packet",
+   "hex": "018A0200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send bt-power-default 0",
+   "kind": "send",
+   "feature": "bt-power-default",
+   "value": "0",
+   "argv": [
+    "send",
+    "bt-power-default",
+    "0"
+   ],
+   "result": "packet",
+   "hex": "01B20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send bt-power-default 1",
+   "kind": "send",
+   "feature": "bt-power-default",
+   "value": "1",
+   "argv": [
+    "send",
+    "bt-power-default",
+    "1"
+   ],
+   "result": "packet",
+   "hex": "01B20100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send bt-power-default 2",
+   "kind": "send",
+   "feature": "bt-power-default",
+   "value": "2",
+   "argv": [
+    "send",
+    "bt-power-default",
+    "2"
+   ],
+   "result": "rejected",
+   "message": "error: value 2 outside 0..1 (use --force to override)"
+  },
+  {
+   "id": "send bt-call 0",
+   "kind": "send",
+   "feature": "bt-call",
+   "value": "0",
+   "argv": [
+    "send",
+    "bt-call",
+    "0"
+   ],
+   "result": "packet",
+   "hex": "01B30000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send bt-call 1",
+   "kind": "send",
+   "feature": "bt-call",
+   "value": "1",
+   "argv": [
+    "send",
+    "bt-call",
+    "1"
+   ],
+   "result": "packet",
+   "hex": "01B30100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send bt-call 2",
+   "kind": "send",
+   "feature": "bt-call",
+   "value": "2",
+   "argv": [
+    "send",
+    "bt-call",
+    "2"
+   ],
+   "result": "packet",
+   "hex": "01B30200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send bt-call 3",
+   "kind": "send",
+   "feature": "bt-call",
+   "value": "3",
+   "argv": [
+    "send",
+    "bt-call",
+    "3"
+   ],
+   "result": "rejected",
+   "message": "error: expected one of ['lower', 'mute', 'nothing'] or [0, 1, 2]"
+  },
+  {
+   "id": "send bt-call nothing",
+   "kind": "send",
+   "feature": "bt-call",
+   "value": "nothing",
+   "argv": [
+    "send",
+    "bt-call",
+    "nothing"
+   ],
+   "result": "packet",
+   "hex": "01B30000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send bt-call lower",
+   "kind": "send",
+   "feature": "bt-call",
+   "value": "lower",
+   "argv": [
+    "send",
+    "bt-call",
+    "lower"
+   ],
+   "result": "packet",
+   "hex": "01B30100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send bt-call mute",
+   "kind": "send",
+   "feature": "bt-call",
+   "value": "mute",
+   "argv": [
+    "send",
+    "bt-call",
+    "mute"
+   ],
+   "result": "packet",
+   "hex": "01B30200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "send save 1",
+   "kind": "send",
+   "feature": "save",
+   "value": "1",
+   "argv": [
+    "send",
+    "save",
+    "1"
+   ],
+   "result": "packet",
+   "hex": "01090000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "read status",
+   "kind": "read",
+   "read": "status",
+   "argv": [
+    "raw",
+    "01",
+    "B0",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01B00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "read firmware",
+   "kind": "read",
+   "read": "firmware",
+   "argv": [
+    "raw",
+    "01",
+    "10",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "read ux",
+   "kind": "read",
+   "read": "ux",
+   "argv": [
+    "raw",
+    "01",
+    "80",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "read serial",
+   "kind": "read",
+   "read": "serial",
+   "argv": [
+    "raw",
+    "01",
+    "12",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01120000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "read audio",
+   "kind": "read",
+   "read": "audio",
+   "argv": [
+    "raw",
+    "01",
+    "20",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "read eq-24g",
+   "kind": "read",
+   "read": "eq-24g",
+   "argv": [
+    "raw",
+    "01",
+    "1A",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "011A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "read eq-bt",
+   "kind": "read",
+   "read": "eq-bt",
+   "argv": [
+    "raw",
+    "01",
+    "1E",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "011E0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "read eq-mic",
+   "kind": "read",
+   "read": "eq-mic",
+   "argv": [
+    "raw",
+    "01",
+    "1C",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "011C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "read eq-name 0",
+   "kind": "read",
+   "read": "eq-name",
+   "slot": 0,
+   "argv": [
+    "raw",
+    "01",
+    "18",
+    "00",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01180000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "read eq-name 1",
+   "kind": "read",
+   "read": "eq-name",
+   "slot": 1,
+   "argv": [
+    "raw",
+    "01",
+    "18",
+    "01",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01180100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "read eq-name 2",
+   "kind": "read",
+   "read": "eq-name",
+   "slot": 2,
+   "argv": [
+    "raw",
+    "01",
+    "18",
+    "02",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01180200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "read eq-name 3",
+   "kind": "read",
+   "read": "eq-name",
+   "slot": 3,
+   "argv": [
+    "raw",
+    "01",
+    "18",
+    "03",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01180300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 00",
+   "kind": "opcode",
+   "opcode": 0,
+   "argv": [
+    "raw",
+    "01",
+    "00",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0x00 is in the blocked range 0x00-0x08"
+  },
+  {
+   "id": "opcode 01",
+   "kind": "opcode",
+   "opcode": 1,
+   "argv": [
+    "raw",
+    "01",
+    "01",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0x01 is DO-NOT-SEND (reset MCU / reboot into bootloader)"
+  },
+  {
+   "id": "opcode 02",
+   "kind": "opcode",
+   "opcode": 2,
+   "argv": [
+    "raw",
+    "01",
+    "02",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0x02 is DO-NOT-SEND (firmware-update (Fizz) sequence)"
+  },
+  {
+   "id": "opcode 03",
+   "kind": "opcode",
+   "opcode": 3,
+   "argv": [
+    "raw",
+    "01",
+    "03",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0x03 is in the blocked range 0x00-0x08"
+  },
+  {
+   "id": "opcode 04",
+   "kind": "opcode",
+   "opcode": 4,
+   "argv": [
+    "raw",
+    "01",
+    "04",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0x04 is in the blocked range 0x00-0x08"
+  },
+  {
+   "id": "opcode 05",
+   "kind": "opcode",
+   "opcode": 5,
+   "argv": [
+    "raw",
+    "01",
+    "05",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0x05 is in the blocked range 0x00-0x08"
+  },
+  {
+   "id": "opcode 06",
+   "kind": "opcode",
+   "opcode": 6,
+   "argv": [
+    "raw",
+    "01",
+    "06",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0x06 is in the blocked range 0x00-0x08"
+  },
+  {
+   "id": "opcode 07",
+   "kind": "opcode",
+   "opcode": 7,
+   "argv": [
+    "raw",
+    "01",
+    "07",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0x07 is in the blocked range 0x00-0x08"
+  },
+  {
+   "id": "opcode 08",
+   "kind": "opcode",
+   "opcode": 8,
+   "argv": [
+    "raw",
+    "01",
+    "08",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0x08 is in the blocked range 0x00-0x08"
+  },
+  {
+   "id": "opcode 09",
+   "kind": "opcode",
+   "opcode": 9,
+   "argv": [
+    "raw",
+    "01",
+    "09",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01090000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 0A",
+   "kind": "opcode",
+   "opcode": 10,
+   "argv": [
+    "raw",
+    "01",
+    "0A",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "010A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 0B",
+   "kind": "opcode",
+   "opcode": 11,
+   "argv": [
+    "raw",
+    "01",
+    "0B",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "010B0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 0C",
+   "kind": "opcode",
+   "opcode": 12,
+   "argv": [
+    "raw",
+    "01",
+    "0C",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "010C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 0D",
+   "kind": "opcode",
+   "opcode": 13,
+   "argv": [
+    "raw",
+    "01",
+    "0D",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "010D0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 0E",
+   "kind": "opcode",
+   "opcode": 14,
+   "argv": [
+    "raw",
+    "01",
+    "0E",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "010E0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 0F",
+   "kind": "opcode",
+   "opcode": 15,
+   "argv": [
+    "raw",
+    "01",
+    "0F",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "010F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 10",
+   "kind": "opcode",
+   "opcode": 16,
+   "argv": [
+    "raw",
+    "01",
+    "10",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 11",
+   "kind": "opcode",
+   "opcode": 17,
+   "argv": [
+    "raw",
+    "01",
+    "11",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 12",
+   "kind": "opcode",
+   "opcode": 18,
+   "argv": [
+    "raw",
+    "01",
+    "12",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01120000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 13",
+   "kind": "opcode",
+   "opcode": 19,
+   "argv": [
+    "raw",
+    "01",
+    "13",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01130000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 14",
+   "kind": "opcode",
+   "opcode": 20,
+   "argv": [
+    "raw",
+    "01",
+    "14",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01140000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 15",
+   "kind": "opcode",
+   "opcode": 21,
+   "argv": [
+    "raw",
+    "01",
+    "15",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01150000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 16",
+   "kind": "opcode",
+   "opcode": 22,
+   "argv": [
+    "raw",
+    "01",
+    "16",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01160000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 17",
+   "kind": "opcode",
+   "opcode": 23,
+   "argv": [
+    "raw",
+    "01",
+    "17",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 18",
+   "kind": "opcode",
+   "opcode": 24,
+   "argv": [
+    "raw",
+    "01",
+    "18",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01180000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 19",
+   "kind": "opcode",
+   "opcode": 25,
+   "argv": [
+    "raw",
+    "01",
+    "19",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01190000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 1A",
+   "kind": "opcode",
+   "opcode": 26,
+   "argv": [
+    "raw",
+    "01",
+    "1A",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "011A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 1B",
+   "kind": "opcode",
+   "opcode": 27,
+   "argv": [
+    "raw",
+    "01",
+    "1B",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "011B0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 1C",
+   "kind": "opcode",
+   "opcode": 28,
+   "argv": [
+    "raw",
+    "01",
+    "1C",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "011C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 1D",
+   "kind": "opcode",
+   "opcode": 29,
+   "argv": [
+    "raw",
+    "01",
+    "1D",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "011D0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 1E",
+   "kind": "opcode",
+   "opcode": 30,
+   "argv": [
+    "raw",
+    "01",
+    "1E",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "011E0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 1F",
+   "kind": "opcode",
+   "opcode": 31,
+   "argv": [
+    "raw",
+    "01",
+    "1F",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "011F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 20",
+   "kind": "opcode",
+   "opcode": 32,
+   "argv": [
+    "raw",
+    "01",
+    "20",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 21",
+   "kind": "opcode",
+   "opcode": 33,
+   "argv": [
+    "raw",
+    "01",
+    "21",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01210000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 22",
+   "kind": "opcode",
+   "opcode": 34,
+   "argv": [
+    "raw",
+    "01",
+    "22",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 23",
+   "kind": "opcode",
+   "opcode": 35,
+   "argv": [
+    "raw",
+    "01",
+    "23",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01230000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 24",
+   "kind": "opcode",
+   "opcode": 36,
+   "argv": [
+    "raw",
+    "01",
+    "24",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01240000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 25",
+   "kind": "opcode",
+   "opcode": 37,
+   "argv": [
+    "raw",
+    "01",
+    "25",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 26",
+   "kind": "opcode",
+   "opcode": 38,
+   "argv": [
+    "raw",
+    "01",
+    "26",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01260000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 27",
+   "kind": "opcode",
+   "opcode": 39,
+   "argv": [
+    "raw",
+    "01",
+    "27",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01270000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 28",
+   "kind": "opcode",
+   "opcode": 40,
+   "argv": [
+    "raw",
+    "01",
+    "28",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01280000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 29",
+   "kind": "opcode",
+   "opcode": 41,
+   "argv": [
+    "raw",
+    "01",
+    "29",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01290000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 2A",
+   "kind": "opcode",
+   "opcode": 42,
+   "argv": [
+    "raw",
+    "01",
+    "2A",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "012A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 2B",
+   "kind": "opcode",
+   "opcode": 43,
+   "argv": [
+    "raw",
+    "01",
+    "2B",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "012B0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 2C",
+   "kind": "opcode",
+   "opcode": 44,
+   "argv": [
+    "raw",
+    "01",
+    "2C",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "012C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 2D",
+   "kind": "opcode",
+   "opcode": 45,
+   "argv": [
+    "raw",
+    "01",
+    "2D",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "012D0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 2E",
+   "kind": "opcode",
+   "opcode": 46,
+   "argv": [
+    "raw",
+    "01",
+    "2E",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "012E0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 2F",
+   "kind": "opcode",
+   "opcode": 47,
+   "argv": [
+    "raw",
+    "01",
+    "2F",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "012F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 30",
+   "kind": "opcode",
+   "opcode": 48,
+   "argv": [
+    "raw",
+    "01",
+    "30",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 31",
+   "kind": "opcode",
+   "opcode": 49,
+   "argv": [
+    "raw",
+    "01",
+    "31",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 32",
+   "kind": "opcode",
+   "opcode": 50,
+   "argv": [
+    "raw",
+    "01",
+    "32",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01320000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 33",
+   "kind": "opcode",
+   "opcode": 51,
+   "argv": [
+    "raw",
+    "01",
+    "33",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01330000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 34",
+   "kind": "opcode",
+   "opcode": 52,
+   "argv": [
+    "raw",
+    "01",
+    "34",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01340000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 35",
+   "kind": "opcode",
+   "opcode": 53,
+   "argv": [
+    "raw",
+    "01",
+    "35",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01350000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 36",
+   "kind": "opcode",
+   "opcode": 54,
+   "argv": [
+    "raw",
+    "01",
+    "36",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01360000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 37",
+   "kind": "opcode",
+   "opcode": 55,
+   "argv": [
+    "raw",
+    "01",
+    "37",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01370000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 38",
+   "kind": "opcode",
+   "opcode": 56,
+   "argv": [
+    "raw",
+    "01",
+    "38",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01380000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 39",
+   "kind": "opcode",
+   "opcode": 57,
+   "argv": [
+    "raw",
+    "01",
+    "39",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01390000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 3A",
+   "kind": "opcode",
+   "opcode": 58,
+   "argv": [
+    "raw",
+    "01",
+    "3A",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "013A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 3B",
+   "kind": "opcode",
+   "opcode": 59,
+   "argv": [
+    "raw",
+    "01",
+    "3B",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "013B0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 3C",
+   "kind": "opcode",
+   "opcode": 60,
+   "argv": [
+    "raw",
+    "01",
+    "3C",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "013C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 3D",
+   "kind": "opcode",
+   "opcode": 61,
+   "argv": [
+    "raw",
+    "01",
+    "3D",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "013D0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 3E",
+   "kind": "opcode",
+   "opcode": 62,
+   "argv": [
+    "raw",
+    "01",
+    "3E",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "013E0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 3F",
+   "kind": "opcode",
+   "opcode": 63,
+   "argv": [
+    "raw",
+    "01",
+    "3F",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "013F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 40",
+   "kind": "opcode",
+   "opcode": 64,
+   "argv": [
+    "raw",
+    "01",
+    "40",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 41",
+   "kind": "opcode",
+   "opcode": 65,
+   "argv": [
+    "raw",
+    "01",
+    "41",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01410000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 42",
+   "kind": "opcode",
+   "opcode": 66,
+   "argv": [
+    "raw",
+    "01",
+    "42",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 43",
+   "kind": "opcode",
+   "opcode": 67,
+   "argv": [
+    "raw",
+    "01",
+    "43",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01430000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 44",
+   "kind": "opcode",
+   "opcode": 68,
+   "argv": [
+    "raw",
+    "01",
+    "44",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01440000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 45",
+   "kind": "opcode",
+   "opcode": 69,
+   "argv": [
+    "raw",
+    "01",
+    "45",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 46",
+   "kind": "opcode",
+   "opcode": 70,
+   "argv": [
+    "raw",
+    "01",
+    "46",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01460000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 47",
+   "kind": "opcode",
+   "opcode": 71,
+   "argv": [
+    "raw",
+    "01",
+    "47",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01470000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 48",
+   "kind": "opcode",
+   "opcode": 72,
+   "argv": [
+    "raw",
+    "01",
+    "48",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 49",
+   "kind": "opcode",
+   "opcode": 73,
+   "argv": [
+    "raw",
+    "01",
+    "49",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 4A",
+   "kind": "opcode",
+   "opcode": 74,
+   "argv": [
+    "raw",
+    "01",
+    "4A",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "014A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 4B",
+   "kind": "opcode",
+   "opcode": 75,
+   "argv": [
+    "raw",
+    "01",
+    "4B",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "014B0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 4C",
+   "kind": "opcode",
+   "opcode": 76,
+   "argv": [
+    "raw",
+    "01",
+    "4C",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "014C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 4D",
+   "kind": "opcode",
+   "opcode": 77,
+   "argv": [
+    "raw",
+    "01",
+    "4D",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "014D0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 4E",
+   "kind": "opcode",
+   "opcode": 78,
+   "argv": [
+    "raw",
+    "01",
+    "4E",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "014E0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 4F",
+   "kind": "opcode",
+   "opcode": 79,
+   "argv": [
+    "raw",
+    "01",
+    "4F",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "014F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 50",
+   "kind": "opcode",
+   "opcode": 80,
+   "argv": [
+    "raw",
+    "01",
+    "50",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 51",
+   "kind": "opcode",
+   "opcode": 81,
+   "argv": [
+    "raw",
+    "01",
+    "51",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01510000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 52",
+   "kind": "opcode",
+   "opcode": 82,
+   "argv": [
+    "raw",
+    "01",
+    "52",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01520000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 53",
+   "kind": "opcode",
+   "opcode": 83,
+   "argv": [
+    "raw",
+    "01",
+    "53",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01530000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 54",
+   "kind": "opcode",
+   "opcode": 84,
+   "argv": [
+    "raw",
+    "01",
+    "54",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01540000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 55",
+   "kind": "opcode",
+   "opcode": 85,
+   "argv": [
+    "raw",
+    "01",
+    "55",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01550000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 56",
+   "kind": "opcode",
+   "opcode": 86,
+   "argv": [
+    "raw",
+    "01",
+    "56",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01560000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 57",
+   "kind": "opcode",
+   "opcode": 87,
+   "argv": [
+    "raw",
+    "01",
+    "57",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 58",
+   "kind": "opcode",
+   "opcode": 88,
+   "argv": [
+    "raw",
+    "01",
+    "58",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01580000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 59",
+   "kind": "opcode",
+   "opcode": 89,
+   "argv": [
+    "raw",
+    "01",
+    "59",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01590000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 5A",
+   "kind": "opcode",
+   "opcode": 90,
+   "argv": [
+    "raw",
+    "01",
+    "5A",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "015A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 5B",
+   "kind": "opcode",
+   "opcode": 91,
+   "argv": [
+    "raw",
+    "01",
+    "5B",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "015B0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 5C",
+   "kind": "opcode",
+   "opcode": 92,
+   "argv": [
+    "raw",
+    "01",
+    "5C",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "015C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 5D",
+   "kind": "opcode",
+   "opcode": 93,
+   "argv": [
+    "raw",
+    "01",
+    "5D",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "015D0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 5E",
+   "kind": "opcode",
+   "opcode": 94,
+   "argv": [
+    "raw",
+    "01",
+    "5E",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "015E0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 5F",
+   "kind": "opcode",
+   "opcode": 95,
+   "argv": [
+    "raw",
+    "01",
+    "5F",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "015F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 60",
+   "kind": "opcode",
+   "opcode": 96,
+   "argv": [
+    "raw",
+    "01",
+    "60",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 61",
+   "kind": "opcode",
+   "opcode": 97,
+   "argv": [
+    "raw",
+    "01",
+    "61",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01610000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 62",
+   "kind": "opcode",
+   "opcode": 98,
+   "argv": [
+    "raw",
+    "01",
+    "62",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01620000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 63",
+   "kind": "opcode",
+   "opcode": 99,
+   "argv": [
+    "raw",
+    "01",
+    "63",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01630000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 64",
+   "kind": "opcode",
+   "opcode": 100,
+   "argv": [
+    "raw",
+    "01",
+    "64",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 65",
+   "kind": "opcode",
+   "opcode": 101,
+   "argv": [
+    "raw",
+    "01",
+    "65",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01650000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 66",
+   "kind": "opcode",
+   "opcode": 102,
+   "argv": [
+    "raw",
+    "01",
+    "66",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01660000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 67",
+   "kind": "opcode",
+   "opcode": 103,
+   "argv": [
+    "raw",
+    "01",
+    "67",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01670000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 68",
+   "kind": "opcode",
+   "opcode": 104,
+   "argv": [
+    "raw",
+    "01",
+    "68",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01680000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 69",
+   "kind": "opcode",
+   "opcode": 105,
+   "argv": [
+    "raw",
+    "01",
+    "69",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01690000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 6A",
+   "kind": "opcode",
+   "opcode": 106,
+   "argv": [
+    "raw",
+    "01",
+    "6A",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "016A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 6B",
+   "kind": "opcode",
+   "opcode": 107,
+   "argv": [
+    "raw",
+    "01",
+    "6B",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "016B0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 6C",
+   "kind": "opcode",
+   "opcode": 108,
+   "argv": [
+    "raw",
+    "01",
+    "6C",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "016C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 6D",
+   "kind": "opcode",
+   "opcode": 109,
+   "argv": [
+    "raw",
+    "01",
+    "6D",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "016D0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 6E",
+   "kind": "opcode",
+   "opcode": 110,
+   "argv": [
+    "raw",
+    "01",
+    "6E",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "016E0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 6F",
+   "kind": "opcode",
+   "opcode": 111,
+   "argv": [
+    "raw",
+    "01",
+    "6F",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "016F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 70",
+   "kind": "opcode",
+   "opcode": 112,
+   "argv": [
+    "raw",
+    "01",
+    "70",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 71",
+   "kind": "opcode",
+   "opcode": 113,
+   "argv": [
+    "raw",
+    "01",
+    "71",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 72",
+   "kind": "opcode",
+   "opcode": 114,
+   "argv": [
+    "raw",
+    "01",
+    "72",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01720000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 73",
+   "kind": "opcode",
+   "opcode": 115,
+   "argv": [
+    "raw",
+    "01",
+    "73",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01730000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 74",
+   "kind": "opcode",
+   "opcode": 116,
+   "argv": [
+    "raw",
+    "01",
+    "74",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 75",
+   "kind": "opcode",
+   "opcode": 117,
+   "argv": [
+    "raw",
+    "01",
+    "75",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01750000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 76",
+   "kind": "opcode",
+   "opcode": 118,
+   "argv": [
+    "raw",
+    "01",
+    "76",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 77",
+   "kind": "opcode",
+   "opcode": 119,
+   "argv": [
+    "raw",
+    "01",
+    "77",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01770000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 78",
+   "kind": "opcode",
+   "opcode": 120,
+   "argv": [
+    "raw",
+    "01",
+    "78",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01780000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 79",
+   "kind": "opcode",
+   "opcode": 121,
+   "argv": [
+    "raw",
+    "01",
+    "79",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01790000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 7A",
+   "kind": "opcode",
+   "opcode": 122,
+   "argv": [
+    "raw",
+    "01",
+    "7A",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "017A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 7B",
+   "kind": "opcode",
+   "opcode": 123,
+   "argv": [
+    "raw",
+    "01",
+    "7B",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "017B0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 7C",
+   "kind": "opcode",
+   "opcode": 124,
+   "argv": [
+    "raw",
+    "01",
+    "7C",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "017C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 7D",
+   "kind": "opcode",
+   "opcode": 125,
+   "argv": [
+    "raw",
+    "01",
+    "7D",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "017D0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 7E",
+   "kind": "opcode",
+   "opcode": 126,
+   "argv": [
+    "raw",
+    "01",
+    "7E",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "017E0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 7F",
+   "kind": "opcode",
+   "opcode": 127,
+   "argv": [
+    "raw",
+    "01",
+    "7F",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "017F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 80",
+   "kind": "opcode",
+   "opcode": 128,
+   "argv": [
+    "raw",
+    "01",
+    "80",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 81",
+   "kind": "opcode",
+   "opcode": 129,
+   "argv": [
+    "raw",
+    "01",
+    "81",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01810000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 82",
+   "kind": "opcode",
+   "opcode": 130,
+   "argv": [
+    "raw",
+    "01",
+    "82",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01820000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 83",
+   "kind": "opcode",
+   "opcode": 131,
+   "argv": [
+    "raw",
+    "01",
+    "83",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01830000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 84",
+   "kind": "opcode",
+   "opcode": 132,
+   "argv": [
+    "raw",
+    "01",
+    "84",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01840000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 85",
+   "kind": "opcode",
+   "opcode": 133,
+   "argv": [
+    "raw",
+    "01",
+    "85",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01850000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 86",
+   "kind": "opcode",
+   "opcode": 134,
+   "argv": [
+    "raw",
+    "01",
+    "86",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01860000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 87",
+   "kind": "opcode",
+   "opcode": 135,
+   "argv": [
+    "raw",
+    "01",
+    "87",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01870000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 88",
+   "kind": "opcode",
+   "opcode": 136,
+   "argv": [
+    "raw",
+    "01",
+    "88",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01880000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 89",
+   "kind": "opcode",
+   "opcode": 137,
+   "argv": [
+    "raw",
+    "01",
+    "89",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01890000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 8A",
+   "kind": "opcode",
+   "opcode": 138,
+   "argv": [
+    "raw",
+    "01",
+    "8A",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "018A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 8B",
+   "kind": "opcode",
+   "opcode": 139,
+   "argv": [
+    "raw",
+    "01",
+    "8B",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "018B0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 8C",
+   "kind": "opcode",
+   "opcode": 140,
+   "argv": [
+    "raw",
+    "01",
+    "8C",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "018C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 8D",
+   "kind": "opcode",
+   "opcode": 141,
+   "argv": [
+    "raw",
+    "01",
+    "8D",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "018D0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 8E",
+   "kind": "opcode",
+   "opcode": 142,
+   "argv": [
+    "raw",
+    "01",
+    "8E",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "018E0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 8F",
+   "kind": "opcode",
+   "opcode": 143,
+   "argv": [
+    "raw",
+    "01",
+    "8F",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "018F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 90",
+   "kind": "opcode",
+   "opcode": 144,
+   "argv": [
+    "raw",
+    "01",
+    "90",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 91",
+   "kind": "opcode",
+   "opcode": 145,
+   "argv": [
+    "raw",
+    "01",
+    "91",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01910000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 92",
+   "kind": "opcode",
+   "opcode": 146,
+   "argv": [
+    "raw",
+    "01",
+    "92",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01920000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 93",
+   "kind": "opcode",
+   "opcode": 147,
+   "argv": [
+    "raw",
+    "01",
+    "93",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01930000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 94",
+   "kind": "opcode",
+   "opcode": 148,
+   "argv": [
+    "raw",
+    "01",
+    "94",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01940000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 95",
+   "kind": "opcode",
+   "opcode": 149,
+   "argv": [
+    "raw",
+    "01",
+    "95",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01950000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 96",
+   "kind": "opcode",
+   "opcode": 150,
+   "argv": [
+    "raw",
+    "01",
+    "96",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01960000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 97",
+   "kind": "opcode",
+   "opcode": 151,
+   "argv": [
+    "raw",
+    "01",
+    "97",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01970000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 98",
+   "kind": "opcode",
+   "opcode": 152,
+   "argv": [
+    "raw",
+    "01",
+    "98",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01980000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 99",
+   "kind": "opcode",
+   "opcode": 153,
+   "argv": [
+    "raw",
+    "01",
+    "99",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01990000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 9A",
+   "kind": "opcode",
+   "opcode": 154,
+   "argv": [
+    "raw",
+    "01",
+    "9A",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "019A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 9B",
+   "kind": "opcode",
+   "opcode": 155,
+   "argv": [
+    "raw",
+    "01",
+    "9B",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "019B0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 9C",
+   "kind": "opcode",
+   "opcode": 156,
+   "argv": [
+    "raw",
+    "01",
+    "9C",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "019C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 9D",
+   "kind": "opcode",
+   "opcode": 157,
+   "argv": [
+    "raw",
+    "01",
+    "9D",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "019D0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 9E",
+   "kind": "opcode",
+   "opcode": 158,
+   "argv": [
+    "raw",
+    "01",
+    "9E",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "019E0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode 9F",
+   "kind": "opcode",
+   "opcode": 159,
+   "argv": [
+    "raw",
+    "01",
+    "9F",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "019F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode A0",
+   "kind": "opcode",
+   "opcode": 160,
+   "argv": [
+    "raw",
+    "01",
+    "A0",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01A00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode A1",
+   "kind": "opcode",
+   "opcode": 161,
+   "argv": [
+    "raw",
+    "01",
+    "A1",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01A10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode A2",
+   "kind": "opcode",
+   "opcode": 162,
+   "argv": [
+    "raw",
+    "01",
+    "A2",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01A20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode A3",
+   "kind": "opcode",
+   "opcode": 163,
+   "argv": [
+    "raw",
+    "01",
+    "A3",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01A30000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode A4",
+   "kind": "opcode",
+   "opcode": 164,
+   "argv": [
+    "raw",
+    "01",
+    "A4",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01A40000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode A5",
+   "kind": "opcode",
+   "opcode": 165,
+   "argv": [
+    "raw",
+    "01",
+    "A5",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01A50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode A6",
+   "kind": "opcode",
+   "opcode": 166,
+   "argv": [
+    "raw",
+    "01",
+    "A6",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01A60000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode A7",
+   "kind": "opcode",
+   "opcode": 167,
+   "argv": [
+    "raw",
+    "01",
+    "A7",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01A70000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode A8",
+   "kind": "opcode",
+   "opcode": 168,
+   "argv": [
+    "raw",
+    "01",
+    "A8",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01A80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode A9",
+   "kind": "opcode",
+   "opcode": 169,
+   "argv": [
+    "raw",
+    "01",
+    "A9",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01A90000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode AA",
+   "kind": "opcode",
+   "opcode": 170,
+   "argv": [
+    "raw",
+    "01",
+    "AA",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01AA0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode AB",
+   "kind": "opcode",
+   "opcode": 171,
+   "argv": [
+    "raw",
+    "01",
+    "AB",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01AB0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode AC",
+   "kind": "opcode",
+   "opcode": 172,
+   "argv": [
+    "raw",
+    "01",
+    "AC",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01AC0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode AD",
+   "kind": "opcode",
+   "opcode": 173,
+   "argv": [
+    "raw",
+    "01",
+    "AD",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01AD0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode AE",
+   "kind": "opcode",
+   "opcode": 174,
+   "argv": [
+    "raw",
+    "01",
+    "AE",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01AE0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode AF",
+   "kind": "opcode",
+   "opcode": 175,
+   "argv": [
+    "raw",
+    "01",
+    "AF",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01AF0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode B0",
+   "kind": "opcode",
+   "opcode": 176,
+   "argv": [
+    "raw",
+    "01",
+    "B0",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01B00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode B1",
+   "kind": "opcode",
+   "opcode": 177,
+   "argv": [
+    "raw",
+    "01",
+    "B1",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01B10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode B2",
+   "kind": "opcode",
+   "opcode": 178,
+   "argv": [
+    "raw",
+    "01",
+    "B2",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01B20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode B3",
+   "kind": "opcode",
+   "opcode": 179,
+   "argv": [
+    "raw",
+    "01",
+    "B3",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01B30000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode B4",
+   "kind": "opcode",
+   "opcode": 180,
+   "argv": [
+    "raw",
+    "01",
+    "B4",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01B40000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode B5",
+   "kind": "opcode",
+   "opcode": 181,
+   "argv": [
+    "raw",
+    "01",
+    "B5",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01B50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode B6",
+   "kind": "opcode",
+   "opcode": 182,
+   "argv": [
+    "raw",
+    "01",
+    "B6",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01B60000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode B7",
+   "kind": "opcode",
+   "opcode": 183,
+   "argv": [
+    "raw",
+    "01",
+    "B7",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01B70000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode B8",
+   "kind": "opcode",
+   "opcode": 184,
+   "argv": [
+    "raw",
+    "01",
+    "B8",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01B80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode B9",
+   "kind": "opcode",
+   "opcode": 185,
+   "argv": [
+    "raw",
+    "01",
+    "B9",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01B90000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode BA",
+   "kind": "opcode",
+   "opcode": 186,
+   "argv": [
+    "raw",
+    "01",
+    "BA",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01BA0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode BB",
+   "kind": "opcode",
+   "opcode": 187,
+   "argv": [
+    "raw",
+    "01",
+    "BB",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01BB0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode BC",
+   "kind": "opcode",
+   "opcode": 188,
+   "argv": [
+    "raw",
+    "01",
+    "BC",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01BC0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode BD",
+   "kind": "opcode",
+   "opcode": 189,
+   "argv": [
+    "raw",
+    "01",
+    "BD",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01BD0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode BE",
+   "kind": "opcode",
+   "opcode": 190,
+   "argv": [
+    "raw",
+    "01",
+    "BE",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01BE0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode BF",
+   "kind": "opcode",
+   "opcode": 191,
+   "argv": [
+    "raw",
+    "01",
+    "BF",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01BF0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode C0",
+   "kind": "opcode",
+   "opcode": 192,
+   "argv": [
+    "raw",
+    "01",
+    "C0",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01C00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode C1",
+   "kind": "opcode",
+   "opcode": 193,
+   "argv": [
+    "raw",
+    "01",
+    "C1",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01C10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode C2",
+   "kind": "opcode",
+   "opcode": 194,
+   "argv": [
+    "raw",
+    "01",
+    "C2",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01C20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode C3",
+   "kind": "opcode",
+   "opcode": 195,
+   "argv": [
+    "raw",
+    "01",
+    "C3",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01C30000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode C4",
+   "kind": "opcode",
+   "opcode": 196,
+   "argv": [
+    "raw",
+    "01",
+    "C4",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01C40000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode C5",
+   "kind": "opcode",
+   "opcode": 197,
+   "argv": [
+    "raw",
+    "01",
+    "C5",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01C50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode C6",
+   "kind": "opcode",
+   "opcode": 198,
+   "argv": [
+    "raw",
+    "01",
+    "C6",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01C60000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode C7",
+   "kind": "opcode",
+   "opcode": 199,
+   "argv": [
+    "raw",
+    "01",
+    "C7",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01C70000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode C8",
+   "kind": "opcode",
+   "opcode": 200,
+   "argv": [
+    "raw",
+    "01",
+    "C8",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01C80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode C9",
+   "kind": "opcode",
+   "opcode": 201,
+   "argv": [
+    "raw",
+    "01",
+    "C9",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01C90000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode CA",
+   "kind": "opcode",
+   "opcode": 202,
+   "argv": [
+    "raw",
+    "01",
+    "CA",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01CA0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode CB",
+   "kind": "opcode",
+   "opcode": 203,
+   "argv": [
+    "raw",
+    "01",
+    "CB",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01CB0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode CC",
+   "kind": "opcode",
+   "opcode": 204,
+   "argv": [
+    "raw",
+    "01",
+    "CC",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01CC0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode CD",
+   "kind": "opcode",
+   "opcode": 205,
+   "argv": [
+    "raw",
+    "01",
+    "CD",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01CD0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode CE",
+   "kind": "opcode",
+   "opcode": 206,
+   "argv": [
+    "raw",
+    "01",
+    "CE",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01CE0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode CF",
+   "kind": "opcode",
+   "opcode": 207,
+   "argv": [
+    "raw",
+    "01",
+    "CF",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01CF0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode D0",
+   "kind": "opcode",
+   "opcode": 208,
+   "argv": [
+    "raw",
+    "01",
+    "D0",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01D00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode D1",
+   "kind": "opcode",
+   "opcode": 209,
+   "argv": [
+    "raw",
+    "01",
+    "D1",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01D10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode D2",
+   "kind": "opcode",
+   "opcode": 210,
+   "argv": [
+    "raw",
+    "01",
+    "D2",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01D20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode D3",
+   "kind": "opcode",
+   "opcode": 211,
+   "argv": [
+    "raw",
+    "01",
+    "D3",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01D30000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode D4",
+   "kind": "opcode",
+   "opcode": 212,
+   "argv": [
+    "raw",
+    "01",
+    "D4",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01D40000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode D5",
+   "kind": "opcode",
+   "opcode": 213,
+   "argv": [
+    "raw",
+    "01",
+    "D5",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01D50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode D6",
+   "kind": "opcode",
+   "opcode": 214,
+   "argv": [
+    "raw",
+    "01",
+    "D6",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01D60000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode D7",
+   "kind": "opcode",
+   "opcode": 215,
+   "argv": [
+    "raw",
+    "01",
+    "D7",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01D70000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode D8",
+   "kind": "opcode",
+   "opcode": 216,
+   "argv": [
+    "raw",
+    "01",
+    "D8",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01D80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode D9",
+   "kind": "opcode",
+   "opcode": 217,
+   "argv": [
+    "raw",
+    "01",
+    "D9",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01D90000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode DA",
+   "kind": "opcode",
+   "opcode": 218,
+   "argv": [
+    "raw",
+    "01",
+    "DA",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01DA0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode DB",
+   "kind": "opcode",
+   "opcode": 219,
+   "argv": [
+    "raw",
+    "01",
+    "DB",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01DB0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode DC",
+   "kind": "opcode",
+   "opcode": 220,
+   "argv": [
+    "raw",
+    "01",
+    "DC",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01DC0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode DD",
+   "kind": "opcode",
+   "opcode": 221,
+   "argv": [
+    "raw",
+    "01",
+    "DD",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01DD0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode DE",
+   "kind": "opcode",
+   "opcode": 222,
+   "argv": [
+    "raw",
+    "01",
+    "DE",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01DE0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode DF",
+   "kind": "opcode",
+   "opcode": 223,
+   "argv": [
+    "raw",
+    "01",
+    "DF",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01DF0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode E0",
+   "kind": "opcode",
+   "opcode": 224,
+   "argv": [
+    "raw",
+    "01",
+    "E0",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01E00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode E1",
+   "kind": "opcode",
+   "opcode": 225,
+   "argv": [
+    "raw",
+    "01",
+    "E1",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01E10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode E2",
+   "kind": "opcode",
+   "opcode": 226,
+   "argv": [
+    "raw",
+    "01",
+    "E2",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01E20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode E3",
+   "kind": "opcode",
+   "opcode": 227,
+   "argv": [
+    "raw",
+    "01",
+    "E3",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01E30000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode E4",
+   "kind": "opcode",
+   "opcode": 228,
+   "argv": [
+    "raw",
+    "01",
+    "E4",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01E40000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode E5",
+   "kind": "opcode",
+   "opcode": 229,
+   "argv": [
+    "raw",
+    "01",
+    "E5",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01E50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode E6",
+   "kind": "opcode",
+   "opcode": 230,
+   "argv": [
+    "raw",
+    "01",
+    "E6",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01E60000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode E7",
+   "kind": "opcode",
+   "opcode": 231,
+   "argv": [
+    "raw",
+    "01",
+    "E7",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01E70000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode E8",
+   "kind": "opcode",
+   "opcode": 232,
+   "argv": [
+    "raw",
+    "01",
+    "E8",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01E80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode E9",
+   "kind": "opcode",
+   "opcode": 233,
+   "argv": [
+    "raw",
+    "01",
+    "E9",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01E90000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode EA",
+   "kind": "opcode",
+   "opcode": 234,
+   "argv": [
+    "raw",
+    "01",
+    "EA",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01EA0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode EB",
+   "kind": "opcode",
+   "opcode": 235,
+   "argv": [
+    "raw",
+    "01",
+    "EB",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01EB0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode EC",
+   "kind": "opcode",
+   "opcode": 236,
+   "argv": [
+    "raw",
+    "01",
+    "EC",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01EC0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode ED",
+   "kind": "opcode",
+   "opcode": 237,
+   "argv": [
+    "raw",
+    "01",
+    "ED",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01ED0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode EE",
+   "kind": "opcode",
+   "opcode": 238,
+   "argv": [
+    "raw",
+    "01",
+    "EE",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01EE0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode EF",
+   "kind": "opcode",
+   "opcode": 239,
+   "argv": [
+    "raw",
+    "01",
+    "EF",
+    "--force"
+   ],
+   "result": "packet",
+   "hex": "01EF0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "id": "opcode F0",
+   "kind": "opcode",
+   "opcode": 240,
+   "argv": [
+    "raw",
+    "01",
+    "F0",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0xF0 is in the blocked range 0xF0-0xFF"
+  },
+  {
+   "id": "opcode F1",
+   "kind": "opcode",
+   "opcode": 241,
+   "argv": [
+    "raw",
+    "01",
+    "F1",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0xF1 is in the blocked range 0xF0-0xFF"
+  },
+  {
+   "id": "opcode F2",
+   "kind": "opcode",
+   "opcode": 242,
+   "argv": [
+    "raw",
+    "01",
+    "F2",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0xF2 is in the blocked range 0xF0-0xFF"
+  },
+  {
+   "id": "opcode F3",
+   "kind": "opcode",
+   "opcode": 243,
+   "argv": [
+    "raw",
+    "01",
+    "F3",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0xF3 is in the blocked range 0xF0-0xFF"
+  },
+  {
+   "id": "opcode F4",
+   "kind": "opcode",
+   "opcode": 244,
+   "argv": [
+    "raw",
+    "01",
+    "F4",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0xF4 is in the blocked range 0xF0-0xFF"
+  },
+  {
+   "id": "opcode F5",
+   "kind": "opcode",
+   "opcode": 245,
+   "argv": [
+    "raw",
+    "01",
+    "F5",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0xF5 is in the blocked range 0xF0-0xFF"
+  },
+  {
+   "id": "opcode F6",
+   "kind": "opcode",
+   "opcode": 246,
+   "argv": [
+    "raw",
+    "01",
+    "F6",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0xF6 is in the blocked range 0xF0-0xFF"
+  },
+  {
+   "id": "opcode F7",
+   "kind": "opcode",
+   "opcode": 247,
+   "argv": [
+    "raw",
+    "01",
+    "F7",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0xF7 is in the blocked range 0xF0-0xFF"
+  },
+  {
+   "id": "opcode F8",
+   "kind": "opcode",
+   "opcode": 248,
+   "argv": [
+    "raw",
+    "01",
+    "F8",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0xF8 is in the blocked range 0xF0-0xFF"
+  },
+  {
+   "id": "opcode F9",
+   "kind": "opcode",
+   "opcode": 249,
+   "argv": [
+    "raw",
+    "01",
+    "F9",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0xF9 is in the blocked range 0xF0-0xFF"
+  },
+  {
+   "id": "opcode FA",
+   "kind": "opcode",
+   "opcode": 250,
+   "argv": [
+    "raw",
+    "01",
+    "FA",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0xFA is in the blocked range 0xF0-0xFF"
+  },
+  {
+   "id": "opcode FB",
+   "kind": "opcode",
+   "opcode": 251,
+   "argv": [
+    "raw",
+    "01",
+    "FB",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0xFB is in the blocked range 0xF0-0xFF"
+  },
+  {
+   "id": "opcode FC",
+   "kind": "opcode",
+   "opcode": 252,
+   "argv": [
+    "raw",
+    "01",
+    "FC",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0xFC is in the blocked range 0xF0-0xFF"
+  },
+  {
+   "id": "opcode FD",
+   "kind": "opcode",
+   "opcode": 253,
+   "argv": [
+    "raw",
+    "01",
+    "FD",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0xFD is DO-NOT-SEND (restore factory defaults)"
+  },
+  {
+   "id": "opcode FE",
+   "kind": "opcode",
+   "opcode": 254,
+   "argv": [
+    "raw",
+    "01",
+    "FE",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0xFE is in the blocked range 0xF0-0xFF"
+  },
+  {
+   "id": "opcode FF",
+   "kind": "opcode",
+   "opcode": 255,
+   "argv": [
+    "raw",
+    "01",
+    "FF",
+    "--force"
+   ],
+   "result": "blocked",
+   "message": "BLOCKED: opcode 0xFF is in the blocked range 0xF0-0xFF"
+  }
+ ]
+}

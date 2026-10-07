@@ -1,0 +1,127 @@
+{
+  "name": "HeadsetControl",
+  "version": "4.1.0-13-g25dadae",
+  "api_version": "1.5",
+  "hidapi_version": "0.15.0",
+  "device_count": 1,
+  "devices": [
+    {
+      "status": "success",
+      "device": "HeadsetControl Test device",
+      "vendor": "HeadsetControl",
+      "product": "Test Device",
+      "id_vendor": "0xf00b",
+      "id_product": "0xa00c",
+      "capabilities": [
+        "CAP_SIDETONE",
+        "CAP_BATTERY_STATUS",
+        "CAP_NOTIFICATION_SOUND",
+        "CAP_LIGHTS",
+        "CAP_INACTIVE_TIME",
+        "CAP_CHATMIX_STATUS",
+        "CAP_VOICE_PROMPTS",
+        "CAP_ROTATE_TO_MUTE",
+        "CAP_EQUALIZER_PRESET",
+        "CAP_EQUALIZER",
+        "CAP_PARAMETRIC_EQUALIZER",
+        "CAP_MICROPHONE_MUTE_LED_BRIGHTNESS",
+        "CAP_MICROPHONE_VOLUME",
+        "CAP_VOLUME_LIMITER",
+        "CAP_BT_WHEN_POWERED_ON",
+        "CAP_BT_CALL_VOLUME",
+        "CAP_NOISE_FILTER",
+        "CAP_SIDETONE_STATUS"
+      ],
+      "capabilities_str": [
+        "sidetone",
+        "battery",
+        "notification sound",
+        "lights",
+        "inactive time",
+        "chatmix",
+        "voice prompts",
+        "rotate to mute",
+        "equalizer preset",
+        "equalizer",
+        "parametric equalizer",
+        "microphone mute led brightness",
+        "microphone volume",
+        "volume limiter",
+        "bluetooth when powered on",
+        "bluetooth call volume",
+        "microphone noise filter",
+        "sidetone status"
+      ],
+      "battery": {
+        "status": "BATTERY_CHARGING",
+        "level": 50,
+        "voltage_mv": 3800,
+        "time_to_full_min": 60
+      },
+      "equalizer": {
+        "bands": 10,
+        "baseline": 0,
+        "step": 0.5,
+        "min": -12,
+        "max": 12
+      },
+      "equalizer_presets_count": 4,
+      "equalizer_presets": {
+        "flat": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bass boost": [
+          6.0,
+          4.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "treble boost": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          4.0,
+          6.0,
+          6.0
+        ],
+        "v-shape": [
+          4.0,
+          2.0,
+          0.0,
+          -2.0,
+          -2.0,
+          -2.0,
+          0.0,
+          2.0,
+          4.0,
+          4.0
+        ]
+      },
+      "chatmix": 64,
+      "sidetone": {
+        "level": 85,
+        "device_level": 2,
+        "name": "Medium"
+      }
+    }
+  ]
+}
