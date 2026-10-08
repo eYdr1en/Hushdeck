@@ -2,7 +2,8 @@ name: CI
 
 # Every push and pull request: warning-free build, tests, String Catalog check and an
 # app bundle. Tags named v* also package Hushdeck-<version>.zip plus its SHA-256 and
-# attach them to a draft GitHub release.
+# attach them to a draft GitHub release, unless a release for the tag already exists
+# (signed and notarised releases are built locally with package-release.sh).
 
 on:
   push:
@@ -24,7 +25,7 @@ env:
   # HeadsetControl is built from source so the bundled binary's exact source revision
   # is known (GPL-3.0). Pin a tag or commit here for reproducible releases.
   HEADSETCONTROL_REPOSITORY: https://github.com/Sapd/HeadsetControl.git
-  HEADSETCONTROL_REF: master
+  HEADSETCONTROL_REF: d0da29a09729307ba78cc0dfe69a439b95f068fd  # master, 2026-10-02
 
 jobs:
   build:
@@ -123,6 +124,10 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          if gh release view "$GITHUB_REF_NAME" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "A release for $GITHUB_REF_NAME already exists (signed locally); leaving it alone."
+            exit 0
+          fi
           gh release create "$GITHUB_REF_NAME" \
             --repo "$GITHUB_REPOSITORY" \
             --draft \
