@@ -53,12 +53,17 @@ Every control was tested against a real Omni (hub firmware 1.28.0): written, rea
 ## Requirements
 
 - macOS 14 or later, Apple Silicon.
-- An Arctis Nova Pro Omni, with the GameHub connected by USB. Any other headset needs [HeadsetControl](https://github.com/Sapd/HeadsetControl), which the release builds bundle.
+- An Arctis Nova Pro Omni, with the GameHub connected by USB. Other headsets work through [HeadsetControl](https://github.com/Sapd/HeadsetControl), which the release includes.
 - No drivers or extra permissions. The vendor HID interface needs no Input Monitoring permission.
 
 ## Install
 
-There's no release yet, so build it yourself (it takes about a minute):
+1. Download **Hushdeck-x.y.z.zip** from the [latest release](https://github.com/eYdr1en/Hushdeck/releases/latest) and unzip it.
+2. Move **Hushdeck.app** to your Applications folder and open it.
+
+Releases are signed with a Developer ID and notarised by Apple, so Hushdeck opens without security warnings. The first time it runs from Applications it turns on **Open at login**; you can switch that off in Settings. The zip includes HeadsetControl for non-Omni headsets, so nothing else needs to be installed.
+
+### Build from source
 
 ```sh
 git clone https://github.com/eYdr1en/Hushdeck.git
@@ -67,9 +72,7 @@ scripts/build-app.sh            # → app/dist/Hushdeck.app (ad-hoc signed)
 open dist/Hushdeck.app
 ```
 
-You need Xcode 26 or later (Swift 6.2). To bundle HeadsetControl for non-Omni headsets, install it first (`brew install headsetcontrol`); the build script picks it up automatically.
-
-Once releases are published they'll be on the [Releases page](https://github.com/eYdr1en/Hushdeck/releases) as a zip. Hushdeck isn't notarised, so the first time you open it, choose **Open Anyway** in System Settings → Privacy & Security, or run `xattr -dr com.apple.quarantine /Applications/Hushdeck.app`.
+You need Xcode 26 or later (Swift 6.2). To bundle HeadsetControl for non-Omni headsets, put a `headsetcontrol` build on your PATH (or set `HEADSETCONTROL_BIN`) first; the build script picks it up automatically.
 
 ## How it works
 
