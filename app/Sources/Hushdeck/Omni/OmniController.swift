@@ -200,6 +200,13 @@ final class OmniController {
         }
     }
 
+    /// Records a write the device accepted. Its own state update arrives a hop later; applying it
+    /// here too keeps the value from flicking back when the overlay clears.
+    func didApply(_ setting: OmniSetting) {
+        state.settings.apply(setting)
+        remember(setting)
+    }
+
     // MARK: Memory (re-apply on connect)
 
     func remember(_ setting: OmniSetting) {

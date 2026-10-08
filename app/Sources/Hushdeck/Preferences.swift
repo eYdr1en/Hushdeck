@@ -180,4 +180,24 @@ enum LaunchAtLogin {
             try SMAppService.mainApp.unregister()
         }
     }
+
+    private static let defaultAppliedKey = "launchAtLoginDefaultApplied"
+
+    /// Turns Open at Login on the first time Hushdeck runs from an Applications folder, so a
+    /// battery monitor is there after every restart. Runs once: switching it off in Settings sticks.
+    /// Dev builds (`dist/`, `swift run`) are never registered.
+    static func enableOnFirstInstalledLaunch(defaults: UserDefaults = .standard,
+                                             bundleURL: URL = Bundle.main.bundleURL) {
+        guard !defaults.bool(forKey: defaultAppliedKey), isInstalled(bundleURL) else { return }
+        defaults.set(true, forKey: defaultAppliedKey)
+        guard SMAppService.mainApp.status != .enabled else { return }
+        try? SMAppService.mainApp.register()
+    }
+
+    nonisolated static func isInstalled(_ bundleURL: URL,
+                                        home: URL = FileManager.default.homeDirectoryForCurrentUser) -> Bool {
+        guard bundleURL.pathExtension == "app" else { return false }
+        let folder = bundleURL.deletingLastPathComponent().standardizedFileURL.path
+        return folder == "/Applications" || folder == home.appendingPathComponent("Applications").standardizedFileURL.path
+    }
 }

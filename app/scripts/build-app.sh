@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Builds dist/Hushdeck.app: release build, Info.plist (LSUIElement), bundled
-# headsetcontrol CLI (plus any Homebrew dylibs it needs), ad-hoc code signature.
+# headsetcontrol CLI (plus any Homebrew dylibs it needs), code signature (ad-hoc unless
+# HUSHDECK_SIGN_IDENTITY is set).
 #
 #   scripts/build-app.sh                       # version 0.1.0
 #   HUSHDECK_VERSION=0.2.0 scripts/build-app.sh
@@ -8,6 +9,8 @@
 #   HUSHDECK_BUNDLE_CLI=0 scripts/build-app.sh  # don't bundle the CLI
 #   HUSHDECK_REPOSITORY_URL=https://github.com/you/Hushdeck scripts/build-app.sh
 #                                              # enables the Website / Report an Issue links in About
+#   HUSHDECK_SIGN_IDENTITY="Developer ID Application: Name (TEAMID)" scripts/build-app.sh
+#                                              # Developer ID + hardened runtime (needed for notarisation)
 set -euo pipefail
 
 APP_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -169,16 +172,24 @@ fi
 rmdir "$APP/Contents/Frameworks" 2>/dev/null || true
 
 # --- Sign ---------------------------------------------------------------------
-step "Ad-hoc signing"
+# Nested code first (dylibs, then the CLI that loads them), the app last.
+SIGN_IDENTITY="${HUSHDECK_SIGN_IDENTITY:-}"
+if [[ -n "$SIGN_IDENTITY" ]]; then
+    step "Signing with $SIGN_IDENTITY (hardened runtime)"
+    SIGN_ARGS=(--force --sign "$SIGN_IDENTITY" --timestamp --options runtime)
+else
+    step "Ad-hoc signing"
+    SIGN_ARGS=(--force --sign - --timestamp=none)
+fi
 if [[ -d "$APP/Contents/Frameworks" ]]; then
     for lib in "$APP/Contents/Frameworks"/*; do
-        codesign --force --sign - --timestamp=none "$lib"
+        codesign "${SIGN_ARGS[@]}" "$lib"
     done
 fi
 if [[ -f "$APP/Contents/Resources/headsetcontrol" ]]; then
-    codesign --force --sign - --timestamp=none "$APP/Contents/Resources/headsetcontrol"
+    codesign "${SIGN_ARGS[@]}" "$APP/Contents/Resources/headsetcontrol"
 fi
-codesign --force --sign - --timestamp=none --identifier "$BUNDLE_ID" "$APP"
+codesign "${SIGN_ARGS[@]}" --identifier "$BUNDLE_ID" "$APP"
 codesign --verify --deep --strict "$APP"
 
 if [[ -f "$APP/Contents/Resources/headsetcontrol" ]]; then

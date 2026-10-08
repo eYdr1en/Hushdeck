@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Builds Hushdeck.app and packages it for a GitHub release / Homebrew cask:
 #
-#   dist/Hushdeck-<version>.zip          the zipped, ad-hoc signed app (ditto, keeps the signature)
+#   dist/Hushdeck-<version>.zip          the zipped app (ditto, keeps the signature and staple)
 #   dist/Hushdeck-<version>.zip.sha256   "<sha256>  Hushdeck-<version>.zip"
 #   dist/hushdeck.rb                     packaging/homebrew/hushdeck.rb with version and sha filled in
 #
@@ -9,6 +9,11 @@
 #   HUSHDECK_VERSION=0.2.0 scripts/package-release.sh
 #   HUSHDECK_SKIP_BUILD=1 scripts/package-release.sh   # package an existing dist/Hushdeck.app
 #   HUSHDECK_REPOSITORY_URL=https://github.com/you/Hushdeck  # also fills the cask's URLs
+#
+# Signed and notarised release (what users can open without warnings):
+#   HUSHDECK_SIGN_IDENTITY="Developer ID Application: Name (TEAMID)" \
+#   HUSHDECK_NOTARY_PROFILE=hushdeck-notary scripts/package-release.sh
+# The profile is created once with `xcrun notarytool store-credentials hushdeck-notary`.
 set -euo pipefail
 
 APP_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -32,6 +37,18 @@ built_version="$(/usr/libexec/PlistBuddy -c 'Print :CFBundleShortVersionString' 
 if [[ "$built_version" != "$VERSION" ]]; then
     echo "error: $APP is version $built_version, expected $VERSION" >&2
     exit 1
+fi
+
+NOTARY_PROFILE="${HUSHDECK_NOTARY_PROFILE:-}"
+if [[ -n "$NOTARY_PROFILE" ]]; then
+    [[ -n "${HUSHDECK_SIGN_IDENTITY:-}" ]] || { echo "error: notarising needs HUSHDECK_SIGN_IDENTITY" >&2; exit 1; }
+    step "Notarising (profile $NOTARY_PROFILE)"
+    SUBMIT_ZIP="$(mktemp -d)/Hushdeck-notarize.zip"
+    ditto -c -k --sequesterRsrc --keepParent "$APP" "$SUBMIT_ZIP"
+    xcrun notarytool submit "$SUBMIT_ZIP" --keychain-profile "$NOTARY_PROFILE" --wait
+    rm -f "$SUBMIT_ZIP"
+    xcrun stapler staple "$APP"
+    spctl --assess --type execute --verbose "$APP"
 fi
 
 step "Zipping $ZIP_NAME"

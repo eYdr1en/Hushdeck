@@ -38,7 +38,7 @@ For other headsets Hushdeck falls back to [HeadsetControl](https://github.com/Sa
 - Your own EQ presets, saved locally.
 - Hushdeck remembers your settings and sends them again when the dock reconnects (for example after it lost power).
 - Notifications for low battery, a fully charged headset and a charged spare battery.
-- Open at login.
+- Opens at login. This is switched on the first time you launch Hushdeck from Applications; you can turn it off in Settings.
 - English and German.
 
 ### What's confirmed on real hardware
@@ -137,7 +137,18 @@ All user-facing text lives in one String Catalog, `app/Sources/Hushdeck/Resource
 
 ### Releasing
 
-`make release VERSION=x.y.z` builds a zip, its SHA-256 and a filled-in Homebrew cask (`packaging/homebrew/hushdeck.rb`) in `app/dist/`. CI (`.github/workflows/ci.yml`) builds and tests every push. For a `v*` tag it attaches those files to a **draft** GitHub release, together with the exact HeadsetControl commit it bundled.
+`make release VERSION=x.y.z` builds a zip, its SHA-256 and a filled-in Homebrew cask (`packaging/homebrew/hushdeck.rb`) in `app/dist/`.
+
+Without credentials the app is ad-hoc signed. For a release that opens without Gatekeeper warnings, sign it with a Developer ID and notarise it:
+
+```sh
+xcrun notarytool store-credentials hushdeck-notary   # once: Apple ID, team ID, app-specific password
+HUSHDECK_SIGN_IDENTITY="Developer ID Application: Your Name (TEAMID)" \
+HUSHDECK_NOTARY_PROFILE=hushdeck-notary \
+make release VERSION=x.y.z
+```
+
+That signs every binary in the bundle with the hardened runtime, submits the app to Apple's notary service, staples the ticket and checks it with Gatekeeper before zipping. CI (`.github/workflows/ci.yml`) builds and tests every push. For a `v*` tag it attaches those files to a **draft** GitHub release, together with the exact HeadsetControl commit it bundled.
 
 ## Repository layout
 

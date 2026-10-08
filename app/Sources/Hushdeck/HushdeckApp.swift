@@ -58,6 +58,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             let runner = SnapshotRunner(model: model, directory: directory, appearance: LaunchOptions.snapshotAppearanceName)
             snapshotRunner = runner
             Task { await runner.run() }
+        } else {
+            LaunchAtLogin.enableOnFirstInstalledLaunch()
         }
     }
 

@@ -27,7 +27,7 @@ extension OmniController {
             }
             do {
                 try await self.device.apply(setting)
-                self.remember(setting)
+                self.didApply(setting)
             } catch is CancellationError {
                 return
             } catch {
